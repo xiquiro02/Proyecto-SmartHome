@@ -4,3 +4,192 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    /* Altura */
+    --header-encabezado: 100px;
+    --header-cajita-checkbox: 25px;
+    --header-button: 50px;
+    /* Ancho */
+    --width-encabezado: auto;
+    --width-contenidoContenedor: 100%;
+    --max-width-contenidoContenedor: 450px;
+    --width-cajita-checkbox: 25px;
+    --width-button: 360px;
+    /* Margin */
+    --margin-icono: 20px;
+    --margin-texto-correo-contrasena: 20px;
+    /* Colores */
+    --color-icono: #000;
+    --color-titulo: #000;
+    --hover-icono: #1E88E5;
+    --hover-borde: #000;
+    --hover-olivido-clave: #1E88E5;
+    --hover-button: #fff;
+    --hover-textobutton: #1E88E5;
+    --color-borde-checkbox: #000;
+    --color-fondocheckbox: #fff;
+    --color-olivido-clave: #000;
+    --color-button: #1E88E5;
+    --color-textobutton: #fff;
+    --color-texto-secundario: #000; 
+    --color-borde-inputs: #000; 
+    --color-sombra: rgba(0, 0, 0, 0.1); 
+    /* Fuente */
+    --fuente-principal: 'Poppins', sans-serif;
+    /* Tamaño de Fuente */
+    --tamano-titulo: 36px; 
+    --tamano-fuente-inputs: 18px; 
+    --tamano-fuente-pequeno: 16px; 
+    --tamano-label: 18px;
+    /* Padding*/
+    --padding-contenedor: 40px; 
+    --padding-input: 12px; 
+    --padding-button: 12px;
+    /* Bordes */
+    --border-caja: 5px solid #000;
+    --border-checkbox: 2px solid var(--color-borde-checkbox);
+    --border-button: 3px solid var(--hover-borde);
+    /* Radio de bordes */
+    --radio-borde: 8px; 
+    --radio-borde-checkbox: 4px;
+    /* Sombra de cajas */
+    --sombra-caja: 0 10px 5px var(--color-sombra); 
+    /* Duración de transiciones */
+    --duracion-transicion: 0.3s; 
+}
+/* body */
+body{
+    font-family: var(--fuente-principal); 
+}
+
+/* encabezado */
+.encabezado {
+    height: var(--header-encabezado);
+    width: var(--width-encabezado);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: var(--margin-icono);
+}
+
+.encabezado .material-symbols-outlined {
+    color: var(--color-icono);
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color var(--duracion-transicion) ease;
+}
+
+.encabezado .material-symbols-outlined:hover {
+    color: var(--hover-icono);
+}
+
+/*contenedor principal o Main */
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding-contenedor);
+}
+
+.contenido__contenedor {
+    width: var(--width-contenidoContenedor);
+    max-width: var(--max-width-contenidoContenedor);
+    border-radius: var(--radio-borde);
+    box-shadow: var(--sombra-caja);
+    padding: var(--padding-contenedor);
+    background: linear-gradient(#84C7F1, #D7F9E6);
+    border: var(--border-caja);
+}
+
+/* Título */
+.contenido__titulo {
+    font-size: var(--tamano-titulo);
+    text-align: center;
+    margin-bottom: 24px;
+    color: var(--color-titulo);
+}
+
+/* Formulario */
+.contenido__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contenido__formulario > div {
+    display: flex;
+    flex-direction: column;
+}
+.contenido__formulario > div label{
+    margin-top: 20px;
+    font-size: var(--tamano-label);
+}
+
+.email, .password {
+    font-weight: bold;
+    margin-bottom: var(--margin-texto-correo-contrasena);
+    color: var(--color-texto-secundario);
+}
+
+/* Inputs */
+input[type="email"], input[type="password"] {
+    padding: var(--padding-input);
+    border: 3px solid var(--color-borde-inputs);
+    border-radius: 8px;
+    font-size: var(--tamano-fuente-inputs);
+}
+
+/* Checkbox*/
+input[type="checkbox"] {
+    margin-right: 20px;
+    appearance: none;
+    width: var(--width-cajita-checkbox);
+    height: var(--header-cajita-checkbox);
+    background-color: var(--color-fondocheckbox);
+    border: var(--border-checkbox);
+    border-radius: var(--radio-borde-checkbox);
+
+}
+
+/*div checkbox */
+.contenido__formulario > div:nth-child(3) { 
+    flex-direction: row;
+    align-items: center;
+}
+
+/* ¿Olvidó su Clave? */
+a {
+    color: var(--color-olivido-clave);
+    text-decoration: none;
+    font-size: var(--tamano-fuente-pequeno);
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--hover-olivido-clave);
+}
+
+/* Botón de ingresar */
+.ingresar {
+    height: var(--header-button); 
+    width: var(--width-button); 
+    background-color: var(--color-button);
+    color: var(--color-textobutton);
+    padding: var(--padding-button);
+    border: var(--border-button);
+    border-radius: var(--radio-borde-checkbox);
+    font-size: var(--tamano-fuente-inputs);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.ingresar:hover {
+    background-color: var(--hover-button);
+    color: var(--hover-textobutton);
+}
