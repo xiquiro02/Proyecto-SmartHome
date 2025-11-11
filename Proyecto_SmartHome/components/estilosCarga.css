@@ -1,20 +1,10 @@
+@import url(customProperties.css);
+
 *{
     /**/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-:root{
-    /*Altura*/
-    --header-contenedor:600px;
-    --header-contengif: 200px;
-    --header-logo:600px;
-    --header-gif: 300px;
-    /*Ancho*/
-    --width-contenedor:auto;
-    --width-contengif: auto;
-    --width-logo:600px;
-    --width-gif: 400px;
 }
 
 /*Contenido*/
