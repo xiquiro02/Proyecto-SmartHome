@@ -1,51 +1,10 @@
+@import url(customProperties.css);
+
 *{
     /**/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-:root{
-    /* Colores */
-    --color-fondo: #FFFFFF;
-    --color-input: #D7F9E6;
-    --color-borde: #000;
-    --color-texto: #000000;
-    --color-boton: #1E88E5;
-    --color-texto-boton: #fff;
-    --color-boton-hover: #1967d2;
-    --color-placeholder: #6E6E6E;
-    --hover-icono: #1E88E5;
-    /*Ancho*/
-    --ancho-contenedor: 500px;
-    --ancho-input: 75%;
-    --ancho-button: 75%;
-    /*Altura*/
-    --alto-input: 40px;
-    --alto-boton: 45px;
-    /*Radio borde*/
-    --radio-borde: 8px;
-    /*Borde*/
-    --border-input: 3px solid var(--color-borde);
-    --border-button: 3px solid var(--color-borde);   
-    /* Tipografía */
-    --fuente-general: "Poppins", Arial, sans-serif;
-    --tamano-titulo: 36px;
-    --tamano-label: 18px;
-    --tamano-button: 18px;
-    --tamano-input: 16px;
-    /* Margin */
-    --margin-titulo: 25px;
-    --margin-left-label: 50px;
-    --margin-bottom-label: 5px;
-    --margin-left-input:50px;
-    --margin-left-button:50px;
-    --margin-bottom-input: 12px;
-    --margin-top-button: 10px;
-    /* Padding */
-    --padding-left-input: 10px;
-    /* Duración de transiciones */
-    --duracion-transicion: 0.3s; 
-
 }
 
 body {
@@ -55,11 +14,11 @@ body {
 
 /*encabezado*/
 .encabezado {
-    padding: 15px;
+    padding: 15px; /* agregar al root */
 }
 
 .material-symbols-outlined {
-    font-size: 50px;
+    font-size: 50px; /* agregar al root */
     font-weight: bold;
     cursor: pointer;
     transition: color var(--duracion-transicion) ease;
@@ -93,7 +52,7 @@ body {
 /*formulrio*/
 label {
     font-size: var(--tamano-label);
-    font-weight: 600;
+    font-weight: 600; 
     display: block;
     margin-left: var(--margin-left-label);
     margin-bottom: var(--margin-bottom-label);
@@ -117,7 +76,7 @@ input::placeholder {
 
 input:focus {
     outline: none; /* Quita el borde negro */
-    border: 4px solid #2a9d8f;
+    border: 4px solid #2a9d8f; /* agregar al root */
 }
 
 /*boton*/
