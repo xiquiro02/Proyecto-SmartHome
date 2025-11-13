@@ -1,0 +1,131 @@
+:root{
+  /* ===================== ESTILOS CARGA =====================  */
+    /*Altura*/
+    --header-contenedor:600px;
+    --header-contengif: 200px;
+    --header-logo:600px;
+    --header-gif: 300px;
+    /*Ancho*/
+    --width-contenedor:auto;
+    --width-contengif: auto;
+    --width-logo:600px;
+    --width-gif: 400px;
+
+  /* ===================== ESTILOS PRINCIPAL =====================  */
+
+    /*Altura*/
+    --header-encabezado:100px;
+    --header-logo:600px;
+    --header-contenedorbutton: 70px;
+    --header-button: 50px;
+    /*Ancho*/
+    --width-encabezado:auto;
+    --width-logo:600px;
+    --width-contenedorbutton: auto;
+    --width-button: 160px;
+    /*Margin*/
+    --marginbottonm-parrafo: 40px;
+    /*Colores*/
+    --hover-icono: #1E88E5;
+    --hover-borde: #000;
+    --color-button: #1E88E5;
+    --color-textobutton: #fff;
+
+  /* ===================== ESTILOS INICIAR SESIÓN =====================  */
+
+    /* Altura */
+    --header-encabezado: 100px;
+    --header-cajita-checkbox: 25px;
+    --header-button: 50px;
+    /* Ancho */
+    --width-encabezado: auto;
+    --width-contenidoContenedor: 100%;
+    --max-width-contenidoContenedor: 450px;
+    --width-cajita-checkbox: 25px;
+    --width-button: 360px;
+    /* Margin */
+    --margin-icono: 20px;
+    --margin-texto-correo-contrasena: 20px;
+    /* Colores */
+    --color-icono: #000;
+    --color-titulo: #000;
+    --hover-icono: #1E88E5;
+    --hover-borde: #000;
+    --hover-olivido-clave: #1E88E5;
+    --hover-button: #fff;
+    --hover-textobutton: #1E88E5;
+    --color-borde-checkbox: #000;
+    --color-fondocheckbox: #fff;
+    --color-olivido-clave: #000;
+    --color-button: #1E88E5;
+    --color-textobutton: #fff;
+    --color-texto-secundario: #000; 
+    --color-borde-inputs: #000; 
+    --color-sombra: rgba(0, 0, 0, 0.1); 
+    /* Fuente */
+    --fuente-principal: 'Poppins', sans-serif;
+    /* Tamaño de Fuente */
+    --tamano-titulo: 36px; 
+    --tamano-fuente-inputs: 18px; 
+    --tamano-fuente-pequeno: 16px; 
+    --tamano-label: 18px;
+    /* Padding*/
+    --padding-contenedor: 40px; 
+    --padding-input: 12px; 
+    --padding-button: 12px;
+    /* Bordes */
+    --border-caja: 5px solid #000;
+    --border-checkbox: 2px solid var(--color-borde-checkbox);
+    --border-button: 3px solid var(--hover-borde);
+    /* Radio de bordes */
+    --radio-borde: 8px; 
+    --radio-borde-checkbox: 4px;
+    /* Sombra de cajas */
+    --sombra-caja: 0 10px 5px var(--color-sombra); 
+    /* Duración de transiciones */
+    --duracion-transicion: 0.3s;
+
+  /* ===================== ESTILOS REGISTRASE =====================  */
+
+    /* Colores */
+    --color-icono: #000;
+    --color-fondo: #FFFFFF;
+    --color-input: #D7F9E6;
+    --color-borde: #000;
+    --color-texto: #000000;
+    --color-boton: #1E88E5;
+    --color-texto-boton: #fff;
+    --color-boton-hover: #1967d2;
+    --color-placeholder: #6E6E6E;
+    --hover-icono: #1E88E5;
+    /*Ancho*/
+    --ancho-contenedor: 500px;
+    --ancho-input: 75%;
+    --ancho-button: 75%;
+    /*Altura*/
+    --alto-input: 40px;
+    --alto-boton: 45px;
+    /*Radio borde*/
+    --radio-borde: 8px;
+    /*Borde*/
+    --border-input: 3px solid var(--color-borde);
+    --border-button: 3px solid var(--color-borde);   
+    /* Tipografía */
+    --fuente-general: "Poppins", Arial, sans-serif;
+    --tamano-titulo: 36px;
+    --tamano-label: 18px;
+    --tamano-button: 18px;
+    --tamano-input: 16px;
+    /* Margin */
+    --margin-titulo: 25px;
+    --margin-left-label: 50px;
+    --margin-bottom-label: 5px;
+    --margin-left-input:50px;
+    --margin-left-button:50px;
+    --margin-bottom-input: 12px;
+    --margin-top-button: 10px;
+    /* Padding */
+    --padding-left-input: 10px;
+    /* Duración de transiciones */
+    --duracion-transicion: 0.3s; 
+}
