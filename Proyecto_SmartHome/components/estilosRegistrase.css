@@ -39,10 +39,26 @@ body {
     align-items: center;
 }
 
+.contenido__principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    height: 800px;
+    border-radius: 8px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    background: linear-gradient(#d7f0ff, #e0ffee);
+
+}
+
 .contenido__contenedor {
     width: var(--ancho-contenedor);
     display: flex;
     flex-direction: column;  
+    background-color: linear-gradient(#84C7F1, #D7F9E6);
+    border-radius: 8px; /* agregar al root */
 }
 
 .contenido__titulo {
