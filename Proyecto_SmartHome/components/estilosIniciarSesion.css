@@ -49,7 +49,6 @@ body{
     box-shadow: var(--sombra-caja);
     padding: var(--padding-contenedor);
     background: linear-gradient(#84C7F1, #D7F9E6); /* agregar al root */
-    border: var(--border-caja);
 }
 
 /* Título */
@@ -76,7 +75,7 @@ body{
     font-size: var(--tamano-label);
 }
 
-.email, .password {
+.email, .password, .recordardatos {
     font-weight: bold;
     margin-bottom: var(--margin-texto-correo-contrasena);
     color: var(--color-texto-secundario);
