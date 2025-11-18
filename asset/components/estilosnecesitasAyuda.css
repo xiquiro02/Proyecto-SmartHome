@@ -43,4 +43,18 @@
 
 .encabezado__titulo{
     font-size: 50px;
+    color: #000;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.contenido__titulo{
+    font-size: 30px;
+    color: #000;
 }
