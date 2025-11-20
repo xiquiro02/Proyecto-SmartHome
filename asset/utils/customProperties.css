@@ -56,22 +56,15 @@
     --width-gif: 400px;
   /* ===================== ESTILOS PRINCIPAL =====================  */
     /*Altura*/
-    --header-encabezado:100px;
     --header-logo:600px;
     --header-contenedorbutton: 70px;
-    --header-button: 50px;
     /*Ancho*/
-    --width-encabezado:auto;
     --width-logo:600px;
     --width-contenedorbutton: auto;
-    --width-button: 160px;
     /*Margin*/
     --marginbottonm-parrafo: 40px;
-    /*Colores*/
-    --hover-icono: #1E88E5;
-    --hover-borde: #000;
-    --color-button: #1E88E5;
-    --color-textobutton: #fff;
+    /*Gaps*/
+    --gap-contenedorbutton: 15px;
   /* ===================== ESTILOS INICIAR SESIÓN =====================  */
     /* Altura */
     --header-cajita-checkbox: 25px;
@@ -109,7 +102,6 @@
   /* ===================== ESTILOS REGISTRASE =====================  */
     /* Colores */
     --color-icono: #000;
-    --color-fondo: #FFFFFF;
     --color-input: #D7F9E6;
     --color-borde: #000;
     --color-texto: #000000;
@@ -120,7 +112,7 @@
     --hover-icono: #1E88E5;
     /*Ancho*/
     --ancho-contenedor: 500px;
-    --ancho-input: 75%;
+    --ancho-input: 400px;
     --ancho-button: 75%;
     /*Altura*/
     --alto-input: 40px;
@@ -131,16 +123,13 @@
     --border-input: 3px solid var(--color-borde);
     --border-button: 3px solid var(--color-borde);   
     /* Tipografía */
-    --fuente-general: "Poppins", Arial, sans-serif;
     --tamano-titulo: 36px;
     --tamano-label: 18px;
     --tamano-button: 18px;
     --tamano-input: 16px;
     /* Margin */
     --margin-titulo: 25px;
-    --margin-left-label: 50px;
     --margin-bottom-label: 5px;
-    --margin-left-input:50px;
     --margin-left-button:50px;
     --margin-bottom-input: 12px;
     --margin-top-button: 10px;

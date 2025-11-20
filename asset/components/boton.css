@@ -1,5 +1,3 @@
-@import url(/asset/utils/customProperties.css);
-
 /*Estilo botones */
 .boton{
     background-color: var(--color-button);
