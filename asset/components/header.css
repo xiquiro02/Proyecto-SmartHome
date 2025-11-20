@@ -1,0 +1,20 @@
+.encabezado {
+    height: var(--header-encabezado);
+    width: var(--width-encabezado);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: var(--margin-icono);
+}
+
+.encabezado .material-symbols-outlined {
+    color: var(--color-icono);
+    font-size: var(--tamano-icono); 
+    font-weight: bold;
+    cursor: pointer;
+    transition: color var(--duracion-transicion) ease;
+}
+
+.encabezado .material-symbols-outlined:hover {
+    color: var(--hover-icono);
+}

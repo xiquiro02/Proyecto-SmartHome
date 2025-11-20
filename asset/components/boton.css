@@ -1,0 +1,19 @@
+@import url(/asset/utils/customProperties.css);
+
+/*Estilo botones */
+.boton{
+    background-color: var(--color-button);
+    color: var(--color-textobutton);
+    padding: var(--padding-button);
+    border: var(--border-button);
+    border-radius: var(--radio-border-checkbox);
+    font-size: var(--tamano-fuente-inputs);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: var(--margin-top-button);
+}
+
+.boton:hover {
+    background-color: var(--hover-button);
+    color: var(--hover-textobutton);
+}

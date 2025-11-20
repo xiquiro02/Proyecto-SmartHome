@@ -1,0 +1,8 @@
+.contenedor {
+    width: var(--width-Contenedor);
+    max-width: var(--max-width-Contenedor);
+    border-radius: var(--radio-borde);
+    box-shadow: var(--sombra-caja);
+    padding: var(--padding-contenedor);
+    background: var(--color-gradient-contenido); 
+}
