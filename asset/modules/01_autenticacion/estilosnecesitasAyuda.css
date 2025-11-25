@@ -59,6 +59,29 @@
     color: #000;
 }
 
-.contenido__preguntas{
-    
+.contenido__principalPreguntas{
+    height: 900px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contenido__pregunta{
+    background: #f12a2a;
+    height: 900px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido__imagen{
+    height: 50px;
+    width: 50px;
+}
+
+.contenido__texto{
+    font-size: 40px;
+    color: #000;
 }
