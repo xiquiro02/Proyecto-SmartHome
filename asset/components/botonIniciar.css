@@ -1,0 +1,18 @@
+/*Estilo botones */
+.botonIniciar{
+    background-color: var(--color-button-iniciar);
+    color: var(--color-textobutton);
+    padding: var(--padding-button);
+    border: none;
+    border-radius: var(--radio-border-checkbox);
+    font-size: var(--tamano-fuente-inputs);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: var(--margin-top-button);
+}
+
+.botonIniciar:hover {
+    background-color: var(--hover-button);
+    color: var(--hover-textbuttonIniciar);
+    border: var(--border-hover-iniciar);
+}
