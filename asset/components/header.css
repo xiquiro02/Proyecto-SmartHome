@@ -9,7 +9,7 @@
 
 .encabezado .material-symbols-outlined {
     color: var(--color-icono);
-    font-size: var(--tamano-icono); 
+    font-size:var(--tamano-icono); 
     font-weight: bold;
     cursor: pointer;
     transition: color var(--duracion-transicion) ease;

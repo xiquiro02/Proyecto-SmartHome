@@ -29,11 +29,13 @@
   /* ===================== BOTONES =====================  */
     /*Color*/
     --color-button: #1E88E5;
+    --color-button-iniciar: #4EC8A9;
     --color-textobutton: #fff;
     /* Padding*/
     --padding-button: 12px;
-    /* Bordes */
-    --border-button: 3px solid var(--hover-borde);
+    /*Borde del hover*/
+    --border-hover: 4px solid #1E88E5;
+    --border-hover-iniciar: 4px solid #4EC8A9;
     /* Radio de bordes */
     --radio-border-checkbox: 4px;
     /*Tamaño fuente*/
@@ -43,6 +45,7 @@
     /*Hover*/
     --hover-button: #fff;
     --hover-textobutton: #1E88E5;
+    --hover-textbuttonIniciar: #4EC8A9; 
   /* ===================== ESTILOS CARGA =====================  */
     /*Altura*/
     --header-contenedor:600px;
