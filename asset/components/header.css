@@ -1,20 +1,21 @@
 .encabezado {
-    height: var(--header-encabezado);
-    width: var(--width-encabezado);
+    height: var(--header-altura);
+    width: var(--header-ancho);
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: var(--margin-icono);
+    padding: var(--header-padding);
+    margin: var(--header-margin);
 }
 
 .encabezado .material-symbols-outlined {
-    color: var(--color-icono);
-    font-size:var(--tamano-icono); 
+    color: var(--icono-color);
+    font-size: var(--icono-tamano);
     font-weight: bold;
     cursor: pointer;
-    transition: color var(--duracion-transicion) ease;
+    transition: color var(--icono-transition) ease;
 }
 
 .encabezado .material-symbols-outlined:hover {
-    color: var(--hover-icono);
+    color: var(--icono-hover);
 }

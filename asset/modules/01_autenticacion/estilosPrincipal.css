@@ -1,25 +1,89 @@
 /*Contenido*/
-.contenido p{
-    font-family: "Nunito Sans", sans-serif;
+.contenido {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 .contenido__contenedorimagen{
     display: flex;
     justify-content: center;
 }
 .contenido__imagen{
-    height: var(--header-logo);
-    width: var(--width-logo);
+    width: var(--contenido-img-tamano);
+    height: var(--contenido-img-tamano);
 }
 .contenido__parrafo{
-    font-size: 28px;
-    margin-bottom: var(--marginbottonm-parrafo);
+    font-size: var(--contenido-parrafo-size);
+    text-align: center;
+    margin-bottom: var(--contenido-margin-bottom);
+    
 }
 .contenido__contenedorbutton{
-    height: var(--header-contenedorbutton);
-    width: var(--width-contenedorbutton);
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap: var(--gap-contenedorbutton);
+    align-items: center;
+    gap: var(--contenido-gap-botones);
+    width: var(--contenido-ancho-contenedorbutton);
+    max-width: var(--contenido-Max-ancho);
+}
+/* ========================== Media queries ========================== */
+/* PANTALLAS MEDIANAS */
+@media (min-width: 768px) and (max-width: 1200px){
+    .encabezado {
+        height: 80px;
+        padding: 15px 20px;
+    }
+
+    .encabezado .material-symbols-outlined {
+        font-size: 55px;
+    }
+
+    .contenido__imagen {
+        width: 350px;
+        height: 350px;
+    }
+
+    .contenido__parrafo {
+        font-size: 20px;
+    }
+
+    .boton {
+        white-space: nowrap;
+        font-size: 18px;
+    }
+}
+/* PANTALLAS GRANDES */
+@media (min-width: 1200px){
+    .encabezado {
+        height: 290px;
+        padding: 40px 20px;
+    }
+
+    .encabezado .material-symbols-outlined {
+        font-size: 200px;
+    }
+
+    .contenido__imagen {
+        width: 1900px;
+        height: 1900px;
+    }
+
+    .contenido__parrafo {
+        margin: 70px;
+        font-size: 90px;
+    }
+    .boton {
+        white-space: nowrap;
+        font-size: 90px;
+        padding: 50px 58px;
+        border-radius: 30px;
+    }
+    .boton--iniciar:hover{
+        border: 15px solid #4EC8A9;
+    }
+    .boton--registrar:hover{
+        border: 15px solid #1E88E5;
+    }
 }

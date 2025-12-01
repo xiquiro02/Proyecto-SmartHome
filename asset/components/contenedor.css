@@ -1,8 +1,11 @@
 .contenedor {
-    width: var(--width-Contenedor);
-    max-width: var(--max-width-Contenedor);
-    border-radius: var(--radio-borde);
-    box-shadow: var(--sombra-caja);
-    padding: var(--padding-contenedor);
-    background: var(--color-gradient-contenido); 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: var(--contenedor-width);
+    max-width: var(--contenedor-max-width);
+    border-radius: var(--contenedor-radius);
+    box-shadow: var(--contenedor-shadow);
+    padding: var(--contenedor-padding);
+    background: var(--contenedor-gradient-bg); 
 }

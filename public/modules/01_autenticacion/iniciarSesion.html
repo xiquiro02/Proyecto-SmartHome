@@ -8,8 +8,8 @@
     <!-- Link Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- Link estilos.css  -->
-    <link rel="stylesheet" href="../../../asset/modules/01_autenticacion/estilosIniciarSesion.css">
     <link rel="stylesheet" href="../../../asset/utils/styles.css">
+    <link rel="stylesheet" href="../../../asset/modules/01_autenticacion/estilosIniciarSesion.css">
     <title>SmartHome Budget</title>
 </head>
 <body>
@@ -22,24 +22,24 @@
         <div class="contenedor">
                 <h1 class="contenido__titulo">Inicio Sesión</h1>
                 <form class="contenido__formulario" method="get" enctype="multipart/form-data">
-                    <div>
-                            <label for="email" class="email">Correo</label>
-                            <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required />
+                    <div class="contenido__grupo">
+                            <label for="email" class="contenido__label">Correo</label>
+                            <input type="email" class="contenido__input" id="email" name="email" placeholder="Ingresa tu correo" required />
                     </div>
-                    <div>
-                            <label for="password" class="password">Contraseña</label>
-                            <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required />
+                    <div class="contenido__grupo">
+                            <label for="password" class="contenido__label">Contraseña</label>
+                            <input type="password" class="contenido__input" id="password" name="password" placeholder="Ingresa tu contraseña" required />
                     </div>
-                    <div>
-                            <input type="checkbox" id="recordardatos" name="recordardatos"/>
-                            <label for="recordardatos" class="recordardatos">Recordar los datos</label>
+                    <div class="contenido__grupo--fila">
+                            <input type="checkbox" class="contenido__checkbox" id="recordardatos" name="recordardatos"/>
+                            <label for="recordardatos" class="contenido__label">Recordar los datos</label>
                     </div>
-                    <div>
-                            <a href="#">¿Olvidó su Clave?</a>
-                    </div>
-                    <div>
+
+                    <a href="#" class="contenido__link">¿Olvidó su Clave?</a>
+
+                    <div class="contenido__grupo">
                             <a href="#">
-                                <button type="submit" class="boton">Ingresar</button>
+                                <button type="submit" class="boton boton--registrar">Ingresar</button>
                             </a>
                     </div>
                 </form>

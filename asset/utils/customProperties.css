@@ -1,107 +1,109 @@
 :root{
   /* ===================== HEADERS =====================  */
     /*Altura*/
-    --header-encabezado: 100px;
+    --header-altura: 60px;
     /*Ancho*/
-    --width-encabezado: auto;
+    --header-ancho: 100%;
+    /*Padding*/
+    --header-padding: 40px 20px;
     /*Margin*/
-    --margin-icono: 20px;
+    --header-margin: 0;
     /*Tamaño Icono*/
-    --tamano-icono: 50px;
+    --icono-tamano: 50px;
     /*Color*/
-    --color-icono: #000;
+    --icono-color: #000;
     /* Duración de transiciones */
-    --duracion-transicion: 0.3s;
+    --icono-transition: 0.3s;
     /*Hover*/
-    --hover-icono: #1E88E5;
+    --icono-hover: #1E88E5;
   /* ===================== CONTENEDORES =====================  */
     /*Ancho*/
-    --width-Contenedor: 100%;
-    --max-width-Contenedor: 450px;
+    --contenedor-width: 90%;
+    --contenedor-max-width: 450px;  
     /* Radio*/
-    --radio-borde: 8px; 
+    --contenedor-radius: 15px; 
     /* Sombra de cajas */
-    --sombra-caja: 0 10px 5px var(--color-sombra);
+    --contenedor-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
     /* Padding */
-    --padding-contenedor: 40px; 
+    --contenedor-padding: 30px 25px; 
     /*Gradientes */
-    --color-gradient-contenido: linear-gradient(#84C7F1, #D7F9E6);
+    --contenedor-gradient-bg: linear-gradient(#84C7F1, #D7F9E6);
   /* ===================== BOTONES =====================  */
-    /*Color*/
-    --color-button: #1E88E5;
-    --color-button-iniciar: #4EC8A9;
-    --color-textobutton: #fff;
+    /*Color Botón primario*/
+    --btn-primary: #1E88E5;
+    --btn-primary-text: #fff;
+    /*Color Botón secundario */
+    --btn-secondary-bg: #4EC8A9;
+    --btn-secondary-text: #fff;
+    /*Hover Botón primario*/
+    --btn-primary-hover: #fff;
+    --btn-primary-hover-text: #1E88E5;
+    /*Hover Botón secundario*/
+    --btn-secondary-hover: #fff;
+    --btn-secondary-hover-text: #4EC8A9;
     /* Padding*/
-    --padding-button: 12px;
+    --btn-padding: 15px 15px;
     /*Borde del hover*/
-    --border-hover: 4px solid #1E88E5;
-    --border-hover-iniciar: 4px solid #4EC8A9;
+    --btn-primary-hover-border: 4px solid #1E88E5;
+    --btn-secondary-hover-border: 4px solid #4EC8A9;
     /* Radio de bordes */
-    --radio-border-checkbox: 4px;
+    --btn-radius: 8px;
     /*Tamaño fuente*/
-    --tamano-fuente-inputs: 18px; 
+    --btn-font-size: 16px;
     /*Margin*/
-    --margin-top-button: 16px;
-    /*Hover*/
-    --hover-button: #fff;
-    --hover-textobutton: #1E88E5;
-    --hover-textbuttonIniciar: #4EC8A9; 
-  /* ===================== ESTILOS CARGA =====================  */
+    --btn-margin-top: 16px;
+  /* ===================== ESTILOS PANTALLA CARGA =====================  */
     /*Altura*/
-    --header-contenedor:600px;
-    --header-contengif: 200px;
-    --header-logo:600px;
-    --header-gif: 300px;
+    --carga-contenedor-altura: 300px;
+    --carga-logo-altura: 320px;
+    --carga-contenedor-gif-altura: 200px; 
+    --carga-gif-tamano-altura: 220px;
     /*Ancho*/
-    --width-contenedor:auto;
-    --width-contengif: auto;
-    --width-logo:600px;
-    --width-gif: 400px;
+    --carga-contenedor-ancho: 100%;
+    --carga-gif-ancho: 100%;
+    --carga-logo-ancho: auto;
+    --carga-gif-ancho: auto;
   /* ===================== ESTILOS PRINCIPAL =====================  */
-    /*Altura*/
-    --header-logo:600px;
-    --header-contenedorbutton: 70px;
+    /* Imagen */
+    --contenido-img-tamano: 320px;
+    /* Texto */
+    --contenido-parrafo-size: 18px;
+    /* Gap */
+    --contenido-gap-botones: 20px;
     /*Ancho*/
-    --width-logo:600px;
-    --width-contenedorbutton: auto;
+    --contenido-ancho-contenedorbutton: 100%;
+    --contenido-Max-ancho: 300px;
     /*Margin*/
-    --marginbottonm-parrafo: 40px;
-    /*Gaps*/
-    --gap-contenedorbutton: 15px;
+    --contenido-margin-bottom: 30px;
   /* ===================== ESTILOS INICIAR SESIÓN =====================  */
     /* Altura */
-    --header-cajita-checkbox: 25px;
+    --login-checkbox-altura: 20px;
     /* Ancho */
-    --width-cajita-checkbox: 25px;
-    /* Margin */
-    --margin-texto-correo-contrasena: 20px;
-    --margin-contenido-titulo: 24px;
-    --margin-formulario: 20px;
-    --margin-checkbox: 20px;
-    --margin-olvidoClave: 8px;
+    --login-checkbox-ancho: 20px;
+    /* Márgenes */
+    --login-margin-titulo-formulario: 24px;
+    --login-margin-formulario-general: 10px;
+    --login-margin-input: 10px;
+    --login-margin-olvido-clave: 5px;
     /* Colores */
-    --color-titulo: #000;
-    --hover-borde: #000;
-    --hover-olivido-clave: #1E88E5;
-    --color-borde-checkbox: #000;
-    --color-fondocheckbox: #fff;
-    --color-olivido-clave: #000;
-    --color-texto-secundario: #000; 
-    --color-borde-inputs: #000; 
-    --color-sombra: rgba(0, 0, 0, 0.1); 
-    /* Tamaño de Fuente */
-    --tamano-titulo: 36px; 
-    --tamano-fuente-pequeno: 16px; 
-    --tamano-label: 18px;
+    --login-color-titulo-principal: #000;
+    --login-color-borde-input: #000;
+    --login-color-olvido-clave: #000;
+    --login-color-olvido-clave-hover: #1E88E5;
+    /*Hover*/
+    --login-hover-fondo-checkbox: #1E88E5;
+    /* Tamaño de Tipografías */
+    --login-fuente-titulo: 28px; 
+    --login-fuente-label: 17px;
+    --login-fuente-inputs: 16px;
+    --login-fuente-pequena: 16px; 
     /* Padding */
-    --padding-input: 12px; 
-    /* Bordes */
-    --border-caja: 5px solid #000;
-    --border-checkbox: 2px solid var(--color-borde-checkbox);
+    --login-padding-contenido: 30px;
+    --login-padding-input: 12px 30px; 
     /* Radio */
-    --radio-inputs: 8px;
+    --login-radio-bordes-inputs: 10px;
     /*Gaps */
-    --gap-formulario: 16px;
+    --login-gap-formulario: 16px;
   /* ===================== ESTILOS REGISTRASE =====================  */
     /* Colores */
     --color-icono: #000;

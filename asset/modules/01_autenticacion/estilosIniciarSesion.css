@@ -3,76 +3,177 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: var(--padding-contenedor);
+    padding: var(--login-padding-contenido);
 }
 
 /* Título */
 .contenido__titulo {
-    font-size: var(--tamano-titulo);
+    font-size: var(--login-fuente-titulo);
     text-align: center;
-    margin-bottom: var(--margin-contenido-titulo); 
-    color: var(--color-titulo);
+    margin-bottom: var(--login-margin-titulo-formulario); 
+    color: var(--login-color-titulo-principal);
 }
 
 /* Formulario */
 .contenido__formulario {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-formulario);
+    gap: var(--login-gap-formulario);
 }
 
-.contenido__formulario > div {
+.contenido__grupo {
     display: flex;
     flex-direction: column;
 }
-.contenido__formulario > div label{
-    margin-top: var(--margin-formulario);
-    font-size: var(--tamano-label);
+
+.contenido__grupo--fila {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
 }
 
-.email, .password, .recordardatos {
-    font-weight: bold;
-    margin-bottom: var(--margin-texto-correo-contrasena);
-    color: var(--color-texto-secundario);
+.contenido__label{
+    margin-top: var(--login-margin-formulario-general);
+    font-size: var(--login-fuente-label);
 }
 
 /* Inputs */
 input[type="email"], input[type="password"] {
-    padding: var(--padding-input);
-    border: 3px solid var(--color-borde-inputs);
-    border-radius: var(--radio-inputs);
-    font-size: var(--tamano-fuente-inputs);
+    width: 100%;
+    margin-top: var(--login-margin-input);
+    padding: var(--login-padding-input);
+    border: 3px solid var(--login-color-borde-input);
+    border-radius: var(--login-radio-bordes-inputs);
+    font-size: var(--login-fuente-inputs);
 }
 
 /* Checkbox*/
 input[type="checkbox"] {
-    margin-right: var(--margin-checkbox);
-    appearance: none;
-    width: var(--width-cajita-checkbox);
-    height: var(--header-cajita-checkbox);
-    background-color: var(--color-fondocheckbox);
-    border: var(--border-checkbox);
-    border-radius: var(--radio-borde-checkbox);
-
-}
-
-/*div checkbox */
-.contenido__formulario > div:nth-child(3) { 
-    flex-direction: row;
-    align-items: center;
+    margin-top: var(--login-margin-formulario-general);
+    height: var(--login-checkbox-altura);
+    width: var(--login-checkbox-ancho);
+    cursor: pointer;
 }
 
 /* ¿Olvidó su Clave? */
-a {
-    color: var(--color-olivido-clave);
+.contenido__link {
+    color: var(--login-color-olvido-clave);
     text-decoration: none;
-    font-size: var(--tamano-fuente-pequeno);
+    font-size: var(--login-fuente-pequena);
     text-align: center;
-    margin-top: var(--margin-olvidoClave);
-    margin-bottom: var(--margin-olvidoClave);
+    margin-top: var(--login-margin-olvido-clave);
+    margin-bottom: var(--login-margin-olvido-clave);
     font-weight: bold;
 }
 
-a:hover {
-    color: var(--hover-olivido-clave);
+.contenido__link:hover {
+    color: var(--login-color-olvido-clave-hover);
+}
+
+/* ========================== Media queries ========================== */
+/* PANTALLAS MEDIANAS */
+@media (min-width: 768px) and (max-width: 1200px){
+    .encabezado {
+        margin-top: 10px;
+        height: 60px;
+        padding: 15px 20px;
+    }
+
+    .encabezado .material-symbols-outlined {
+        font-size: 55px;
+    }
+
+    .contenedor {
+        width: 80%;
+        max-width: 370px;
+        padding: 30px 20px;
+    }
+
+    .contenido__titulo {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .contenido__formulario {
+        gap: 18px; 
+    }
+
+    .contenido__label{
+        font-size: 16px;
+    }
+    .contenido__link{
+        font-size: 16px;
+    }
+
+    input[type="email"], input[type="password"] {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+    }
+
+    .boton {
+        white-space: nowrap;
+        font-size: 18px;
+    }
+}
+/* PANTALLAS GRANDES */
+@media (min-width: 1200px){
+    .encabezado {
+        height: 290px;
+        padding: 100px 90px;
+    }
+
+    .encabezado .material-symbols-outlined {
+        font-size: 200px;
+    }
+
+    .contenedor {
+        width: 100%;
+        height: 2300px;
+        max-width: 2100px;
+        padding: 150px 20px;
+    }
+
+    .contenido__titulo {
+        font-size: 150px;
+        margin-bottom: 80px;
+    }
+
+    .contenido__formulario {
+        gap: 90px; 
+    }
+
+    .contenido__label{
+        font-size: 100px;
+        margin-bottom: 50px;
+    }
+    .contenido__link{
+        font-size: 100px;
+    }
+
+    .contenido__grupo--fila{
+        gap: 90px
+    }
+
+    input[type="email"], input[type="password"] {
+        padding: 60px 200px;
+        font-size: 90px;
+    }
+
+    input[type="checkbox"] {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 50px;
+    }
+
+    .boton {
+        white-space: nowrap;
+        font-size: 100px;
+        padding: 50px 28px;
+    }
 }
