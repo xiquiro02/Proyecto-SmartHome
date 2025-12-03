@@ -18,16 +18,16 @@
     --icono-hover: #1E88E5;
   /* ===================== CONTENEDORES =====================  */
     /*Ancho*/
-    --contenedor-width: 90%;
-    --contenedor-max-width: 450px;  
+    --contenedor-width: 100%;
+    --contenedor-max-width: 380px;  
     /* Radio*/
-    --contenedor-radius: 15px; 
+    --contenedor-radius: 12px; 
     /* Sombra de cajas */
-    --contenedor-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+    --contenedor-shadow: 0 5px 12px rgba(0,0,0,0.12);
     /* Padding */
-    --contenedor-padding: 30px 25px; 
+    --contenedor-padding: 25px 20px; 
     /*Gradientes */
-    --contenedor-gradient-bg: linear-gradient(#84C7F1, #D7F9E6);
+    --contenedor-gradient-bg: linear-gradient(to right, #a4dbf4, #ccffd3);
   /* ===================== BOTONES =====================  */
     /*Color Botón primario*/
     --btn-primary: #1E88E5;
@@ -44,47 +44,48 @@
     /* Padding*/
     --btn-padding: 15px 15px;
     /*Borde del hover*/
-    --btn-primary-hover-border: 4px solid #1E88E5;
-    --btn-secondary-hover-border: 4px solid #4EC8A9;
+    --btn-primary-hover-border: 3px solid #1E88E5;
+    --btn-secondary-hover-border: 3px solid #4EC8A9;
     /* Radio de bordes */
     --btn-radius: 8px;
     /*Tamaño fuente*/
     --btn-font-size: 16px;
     /*Margin*/
     --btn-margin-top: 16px;
-  /* ===================== ESTILOS PANTALLA CARGA =====================  */
-    /*Altura*/
-    --carga-contenedor-altura: 300px;
-    --carga-logo-altura: 320px;
-    --carga-contenedor-gif-altura: 200px; 
-    --carga-gif-tamano-altura: 220px;
-    /*Ancho*/
+/* ===================== ESTILOS PANTALLA CARGA =====================  */
+    /* Ancho */
+    --carga-ancho: 100%;
     --carga-contenedor-ancho: 100%;
-    --carga-gif-ancho: 100%;
-    --carga-logo-ancho: auto;
-    --carga-gif-ancho: auto;
+    --carga-logo-ancho: 70vw;
+    --carga-gif-ancho: 70vw; 
+    /* Altura */
+    --carga-altura: 100vh;
+    --carga-logo-altura: auto;
+    --carga-gif-altura: auto;
   /* ===================== ESTILOS PRINCIPAL =====================  */
     /* Imagen */
-    --contenido-img-tamano: 320px;
+    --contenido-img-tamano: 40vw;
+    --contenido-img-max: 280px;       
+    --contenido-img-min: 160px;  
     /* Texto */
-    --contenido-parrafo-size: 18px;
+    --contenido-parrafo-size: 1.2rem;
     /* Gap */
-    --contenido-gap-botones: 20px;
+    --contenido-gap-botones: 1.5rem;
     /*Ancho*/
     --contenido-ancho-contenedorbutton: 100%;
-    --contenido-Max-ancho: 300px;
+    --contenido-Max-ancho: 350px;
     /*Margin*/
-    --contenido-margin-bottom: 30px;
+    --contenido-margin-bottom: 2rem;
   /* ===================== ESTILOS INICIAR SESIÓN =====================  */
-    /* Altura */
-    --login-checkbox-altura: 20px;
-    /* Ancho */
-    --login-checkbox-ancho: 20px;
+    /* Altura y Ancho de Checkbox */
+    --login-checkbox-altura: 40vh;
+    --login-checkbox-max: 20px;
+    --login-checkbox-min: 14px;
+    --login-checkbox-ancho: 40vw;
     /* Márgenes */
-    --login-margin-titulo-formulario: 24px;
-    --login-margin-formulario-general: 10px;
-    --login-margin-input: 10px;
-    --login-margin-olvido-clave: 5px;
+    --login-margin-titulo-formulario: 2rem;
+    --login-margin-input: 0.5rem;
+    --login-margin-olvido-clave: 0.5rem;
     /* Colores */
     --login-color-titulo-principal: #000;
     --login-color-borde-input: #000;
@@ -93,53 +94,40 @@
     /*Hover*/
     --login-hover-fondo-checkbox: #1E88E5;
     /* Tamaño de Tipografías */
-    --login-fuente-titulo: 28px; 
-    --login-fuente-label: 17px;
-    --login-fuente-inputs: 16px;
-    --login-fuente-pequena: 16px; 
+    --login-fuente-titulo: 2rem; 
+    --login-fuente-label: 1rem;
+    --login-fuente-inputs: 1rem;
+    --login-fuente-pequena: 0.95rem;
     /* Padding */
-    --login-padding-contenido: 30px;
-    --login-padding-input: 12px 30px; 
+    --login-padding-contenido: 5vw;
+    --login-padding-input: 0.9rem 1.5rem;
     /* Radio */
-    --login-radio-bordes-inputs: 10px;
+    --login-radio-bordes-inputs: 0.7rem;
     /*Gaps */
-    --login-gap-formulario: 16px;
-  /* ===================== ESTILOS REGISTRASE =====================  */
-    /* Colores */
-    --color-icono: #000;
-    --color-input: #D7F9E6;
-    --color-borde: #000;
-    --color-texto: #000000;
-    --color-boton: #1E88E5;
-    --color-texto-boton: #fff;
-    --color-boton-hover: #1967d2;
-    --color-placeholder: #6E6E6E;
-    --hover-icono: #1E88E5;
-    /*Ancho*/
-    --ancho-contenedor: 500px;
-    --ancho-input: 400px;
-    --ancho-button: 75%;
-    /*Altura*/
-    --alto-input: 40px;
-    --alto-boton: 45px;
-    /*Radio borde*/
-    --radio-borde: 8px;
-    /*Borde*/
-    --border-input: 3px solid var(--color-borde);
-    --border-button: 3px solid var(--color-borde);   
-    /* Tipografía */
-    --tamano-titulo: 36px;
-    --tamano-label: 18px;
-    --tamano-button: 18px;
-    --tamano-input: 16px;
-    /* Margin */
-    --margin-titulo: 25px;
-    --margin-bottom-label: 5px;
-    --margin-left-button:50px;
-    --margin-bottom-input: 12px;
-    --margin-top-button: 10px;
-    /* Padding */
-    --padding-left-input: 10px;
-    /* Duración de transiciones */
-    --duracion-transicion: 0.3s; 
+    --login-gap-formulario: 1rem;
+/* ===================== ESTILOS REGISTRARSE =====================  */
+  /* Colores */
+  --registro-input-bg: #D7F9E6;
+  --registro-placeholder: #6E6E6E;
+  /* Anchos */
+  --registro-formulario-w: 90%;
+  --registro-input-w: 90%;
+  /* Alturas */
+  --registro-contenido-min-h: 100vh;
+  --registro-input-h: 35px;
+  /* Bordes */
+  --registro-radio-borde: 8px;
+  --registro-input-border: 3px solid #000;
+  --registro-input-border-focus: 4px solid #2a9d8f;
+  /* Tipografía */
+  --registro-titulo-size: 1.5rem;
+  --registro-label-size: 0.7rem;
+  --registro-input-size: 14px;
+  /* Margen */
+  --registro-titulo-margin: 1.5rem;
+  --registro-label-margin-bottom: 0.3rem;
+  --registro-input-margin-bottom: 2px;
+  /* Padding */
+  --registro-input-padding: 0 10px;
+  --registro-contenido-padding: 20px;
 }

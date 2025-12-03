@@ -8,6 +8,12 @@
     margin: var(--header-margin);
 }
 
+.encabezado__imagen{
+    height: 70px;
+    width:70px;
+    margin-left: 20px;
+}
+
 .encabezado .material-symbols-outlined {
     color: var(--icono-color);
     font-size: var(--icono-tamano);
@@ -18,4 +24,17 @@
 
 .encabezado .material-symbols-outlined:hover {
     color: var(--icono-hover);
+}
+
+.encabezado__contenedorTitulo{
+    width: 95%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado__titulo{
+    font-size: 50px;
+    color: #000;
 }

@@ -1,65 +1,60 @@
 /* Contenedor principal de la pantalla de carga */
 .carga {
-    width: 100%;
-    height: auto;
+    width: var(--carga-ancho);
+    height: var(--carga-altura);
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
+
+/* Contenido centrado */
+.carga__contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Logo */
 .carga__logo-contenedor{
-    height: var(--carga-contenedor-altura);
     width: var(--carga-contenedor-ancho);
     display: flex;
     justify-content: center;
 }
 .carga__logo{
+    width: var(--carga-logo-ancho); 
     height: var(--carga-logo-altura);
-    width: var(--carga-logo-ancho);
 }
 /* GIF */
 .carga__gif-contenedor{
-    height: var(--carga-contenedor-gif-altura);
-    width: var(--carga-gif-ancho);
     display: flex;
     justify-content: center;
 }
 .carga__gif{
-    height: var(--carga-gif-tamano-altura);
     width: var(--carga-gif-ancho);
+    height: var(--carga-gif-altura);
 }
 /* ========================== Media queries ========================== */
 /* PANTALLAS MEDIANAS */
 @media (min-width: 768px) and (max-width: 1200px){
 /* Logo */
-.carga__logo-contenedor{
-    height: 340px;
-}
 .carga__logo{
-    height: 360px;
+    width: 40vw; 
 }
+
 /* GIF */
-.carga__gif-contenedor{
-    height: 240px;
-}
 .carga__gif{
-    height: 260px;
-}
-}
+    width: 35vw;
+}}
+
 /* PANTALLAS GRANDES */
 @media (min-width: 1200px){
 /* Logo */
-.carga__logo-contenedor{
-    height: 1500px;
-}
 .carga__logo{
-    height: 1500px;
+    width: 30vw; 
 }
+
 /* GIF */
-.carga__gif-contenedor{
-    height: 1250px;
-}
 .carga__gif{
-    height: 1250px;
-}
-}
+    width: 22vw;
+}}

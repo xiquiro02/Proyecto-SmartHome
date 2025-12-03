@@ -8,6 +8,7 @@
     cursor: pointer;
     white-space: nowrap;
     margin-top: var(--btn-margin-top);
+    transition: 0.3s;
 }
 
 .boton--iniciar {

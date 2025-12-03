@@ -11,7 +11,9 @@
 }
 .contenido__imagen{
     width: var(--contenido-img-tamano);
-    height: var(--contenido-img-tamano);
+    max-width: var(--contenido-img-max);
+    min-width: var(--contenido-img-min);
+    height: auto; 
 }
 .contenido__parrafo{
     font-size: var(--contenido-parrafo-size);
@@ -30,60 +32,61 @@
 }
 /* ========================== Media queries ========================== */
 /* PANTALLAS MEDIANAS */
-@media (min-width: 768px) and (max-width: 1200px){
+@media (min-width: 768px){
     .encabezado {
-        height: 80px;
-        padding: 15px 20px;
+        height: 10vh;
+        padding: 2vh 3vw;
     }
 
     .encabezado .material-symbols-outlined {
-        font-size: 55px;
+        font-size: 6vh;
     }
 
     .contenido__imagen {
-        width: 350px;
-        height: 350px;
+        width: 30vw;
     }
 
     .contenido__parrafo {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 
     .boton {
-        white-space: nowrap;
-        font-size: 18px;
+        font-size: 1.1rem;
+        padding: 0.9rem 1.6rem;
     }
 }
 /* PANTALLAS GRANDES */
 @media (min-width: 1200px){
     .encabezado {
-        height: 290px;
-        padding: 40px 20px;
+        height: 12vh;
+        padding: 3vh 3vw;
     }
 
     .encabezado .material-symbols-outlined {
-        font-size: 200px;
+        font-size: 8vh;
     }
 
     .contenido__imagen {
-        width: 1900px;
-        height: 1900px;
+        width: 30vw;      
+        max-width: none; 
     }
 
     .contenido__parrafo {
-        margin: 70px;
-        font-size: 90px;
+        margin: 4rem 0;
+        font-size: 5rem;
     }
+
     .boton {
-        white-space: nowrap;
-        font-size: 90px;
-        padding: 50px 58px;
-        border-radius: 30px;
+        font-size: 5rem;
+        padding: 3rem 3rem;
+        border-radius: 1rem;
     }
+
     .boton--iniciar:hover{
-        border: 15px solid #4EC8A9;
+        border: 10px solid #4EC8A9;
     }
+
     .boton--registrar:hover{
-        border: 15px solid #1E88E5;
+        border: 10px solid #1E88E5;;
     }
 }
