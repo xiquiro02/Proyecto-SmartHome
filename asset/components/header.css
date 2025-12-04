@@ -1,17 +1,28 @@
 .encabezado {
-    height: var(--header-altura);
-    width: var(--header-ancho);
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    height: var(--header-altura);
+    width: var(--header-ancho);
     padding: var(--header-padding);
     margin: var(--header-margin);
+    box-shadow: var(--header-box-shadow);
+    background-color: var(--header-color);
+    gap: 15px;
+    position: relative;
 }
 
 .encabezado__imagen{
-    height: 70px;
-    width:70px;
-    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.encabezado a {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .encabezado .material-symbols-outlined {
@@ -35,6 +46,8 @@
 }
 
 .encabezado__titulo{
-    font-size: 50px;
-    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
 }

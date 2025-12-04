@@ -5,13 +5,16 @@
     /*Ancho*/
     --header-ancho: 100%;
     /*Padding*/
-    --header-padding: 40px 20px;
+    --header-padding: 15px 20px;
     /*Margin*/
     --header-margin: 0;
     /*Tamaño Icono*/
-    --icono-tamano: 50px;
+    --icono-tamano: 30px;
     /*Color*/
     --icono-color: #000;
+    --header-color: #D9D9D9;
+    /*Box Shadow*/
+    --header-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* Duración de transiciones */
     --icono-transition: 0.3s;
     /*Hover*/
