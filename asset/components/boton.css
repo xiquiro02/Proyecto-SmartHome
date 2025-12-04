@@ -43,3 +43,24 @@
     color: #2ECC71;
     border: 3px solid #2ECC71;
 }
+
+.boton--cerrar-sesion {
+    background-color: #E0E0E0;
+    color: #000000;
+}
+
+.boton--cerrar-sesion:hover {
+    background-color: #000000;
+    color: #E0E0E0;
+}
+
+.boton--Eliminar {
+    background-color: #E51E1E;
+    color: #FFFFFF;
+}
+
+.boton--Eliminar:hover {
+    background-color: #FFFFFF;
+    color: #E51E1E;
+    border: 3px solid #E51E1E;
+}
