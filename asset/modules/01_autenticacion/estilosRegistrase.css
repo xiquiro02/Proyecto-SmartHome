@@ -74,6 +74,10 @@ input:focus {
     font-size: 13px;
 }
 
+.encabezado{
+    background-color: transparent;
+    box-shadow: none;
+}
 /* ========================== Media queries ========================== */
 /* PANTALLAS MEDIANAS */
 @media (min-width: 768px){

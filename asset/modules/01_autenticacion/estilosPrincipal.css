@@ -30,6 +30,11 @@
     width: var(--contenido-ancho-contenedorbutton);
     max-width: var(--contenido-Max-ancho);
 }
+
+.encabezado{
+    background-color: transparent;
+    box-shadow: none;
+}
 /* ========================== Media queries ========================== */
 /* PANTALLAS MEDIANAS */
 @media (min-width: 768px){

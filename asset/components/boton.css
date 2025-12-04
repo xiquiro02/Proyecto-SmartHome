@@ -33,3 +33,13 @@
     border: var(--btn-primary-hover-border);
 }
 
+.boton--cancelar {
+    background-color: #2ECC71;
+    color: #fff;
+}
+
+.boton--cancelar:hover {
+    background-color: #fff;
+    color: #2ECC71;
+    border: 3px solid #2ECC71;
+}
