@@ -97,3 +97,14 @@
     color: #2ECC71;
     border: 3px solid #2ECC71;
 }
+
+.boton--mover{
+    background: #9400CE;
+    color: #FFFFFF;
+}
+
+.boton--mover:hover{
+    background-color: #fff;
+    color: #9400CE;
+    border: 3px solid #9400CE;
+}
