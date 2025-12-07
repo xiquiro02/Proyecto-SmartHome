@@ -23,63 +23,62 @@
             <p class="encabezado__descripcion">Gestiona tus facturas y controla tus pagos fácilmente.</p>
         </div>
     </header>
-    <main class="facturas-container">
-        <div class="seccion-accion seccion-accion--borde-azul">
-            <div class="seccion-accion__header">
-                <img class="seccion-accion__icono" src="../../../asset/imagenes/agregar_factura.png" alt="Agregar">
-                <div class="seccion-accion__contenido">
-                    <h3 class="seccion-accion__titulo">Registrar Facturas</h3>
-                    <p class="seccion-accion__subtitulo">Agrega una nueva factura</p>
+    <main class="facturas">
+        <div class="tarjetaAccion tarjetaAccion--azul">
+            <div class="tarjetaAccion__encabezado">
+                <img class="tarjetaAccion__icono" src="../../../asset/imagenes/agregar_factura.png" alt="Agregar">
+                <div class="tarjetaAccion__contenido">
+                    <h3 class="tarjetaAccion__titulo">Registrar Facturas</h3>
+                    <p class="tarjetaAccion__subtitulo">Agrega una nueva factura</p>
                 </div>
             </div>
-            <button class="boton boton--registrar">crear</button>
+            <button class="boton boton--registrar">Crear</button>
         </div>
-        <div class="seccion-accion seccion-accion--borde-verde">
-            <div class="seccion-accion__header">
-                <img class="seccion-accion__icono seccion-accion__icono--verde" src="../../../asset/imagenes/barra-grafica.png" alt="Consultar">
-                <div class="seccion-accion__contenido">
-                    <h3 class="seccion-accion__titulo">Consultar Facturas</h3>
-                    <p class="seccion-accion__subtitulo">Busca y filtra por estado:</p>
-                    <div class="tags-container">
-                        <span class="tag tag--pendiente">Pendientes</span>
-                        <span class="tag tag--pagada">Pagadas</span>
-                        <span class="tag tag--vencida">Vencidas</span>
+        <div class="tarjetaAccion tarjetaAccion--verde">
+            <div class="tarjetaAccion__encabezado">
+                <img class="tarjetaAccion__icono tarjetaAccion__icono--verde" src="../../../asset/imagenes/barra-grafica.png" alt="Consultar">
+                <div class="tarjetaAccion__contenido">
+                    <h3 class="tarjetaAccion__titulo">Consultar Facturas</h3>
+                    <p class="tarjetaAccion__subtitulo">Busca y filtra por estado:</p>
+                    <div class="contenedorEtiquetas">
+                        <span class="etiqueta etiqueta--pendiente">Pendientes</span>
+                        <span class="etiqueta etiqueta--pagada">Pagadas</span>
+                        <span class="etiqueta etiqueta--vencida">Vencidas</span>
                     </div>
                 </div>
             </div>
             <button class="boton boton--cancelar">Ver todas</button>
         </div>
-        <div class="seccion-accion seccion-accion--borde-morado">
-            <div class="seccion-accion__header">
-                <img class="seccion-accion__icono seccion-accion__icono--morado" src="../../../asset/imagenes/reloj.png" alt="Historial">
-                <div class="seccion-accion__contenido">
-                    <h3 class="seccion-accion__titulo">Historial de Pagos</h3>
-                    <p class="seccion-accion__subtitulo">Facturas ya pagadas</p>
+        <div class="tarjetaAccion tarjetaAccion--morado">
+            <div class="tarjetaAccion__encabezado">
+                <img class="tarjetaAccion__icono tarjetaAccion__icono--morado" src="../../../asset/imagenes/reloj.png" alt="Historial">
+                <div class="tarjetaAccion__contenido">
+                    <h3 class="tarjetaAccion__titulo">Historial de Pagos</h3>
+                    <p class="tarjetaAccion__subtitulo">Facturas ya pagadas</p>
                 </div>
             </div>
-            <span class="material-symbols-outlined seccion-accion__flecha">arrow_forward</span>
+            <span class="material-symbols-outlined tarjetaAccion__flecha">arrow_forward</span>
         </div>
-        <div class="seccion-accion seccion-accion--borde-gris">
-            <div class="seccion-accion__header">
-                <img class="seccion-accion__icono seccion-accion__icono--gris" src="../../../asset/imagenes/resumen_rapido.png" alt="Resumen">
-                <h3 class="seccion-accion__titulo">Resumen rápido</h3>
+        <div class="tarjetaAccion tarjetaAccion--gris">
+            <div class="tarjetaAccion__encabezado">
+                <img class="tarjetaAccion__icono tarjetaAccion__icono--gris" src="../../../asset/imagenes/resumen_rapido.png" alt="Resumen">
+                <h3 class="tarjetaAccion__titulo">Resumen rápido</h3>
             </div>
-            <div class="resumen-rapido">
-                <div class="resumen-item">
-                    <p class="resumen-item__numero">2</p>
-                    <p class="resumen-item__label">Pendientes</p>
+            <div class="resumenPagos">
+                <div class="resumenPagos__item">
+                    <p class="resumenPagos__numero">2</p>
+                    <p class="resumenPagos__texto">Pendientes</p>
                 </div>
-                <div class="resumen-item">
-                    <p class="resumen-item__numero resumen-item__numero--verde">2</p>
-                    <p class="resumen-item__label">Pagadas</p>
+                <div class="resumenPagos__item">
+                    <p class="resumenPagos__numero resumenPagos__numero--verde">2</p>
+                    <p class="resumenPagos__texto">Pagadas</p>
                 </div>
-                <div class="resumen-item">
-                    <p class="resumen-item__numero resumen-item__numero--naranja">1</p>
-                    <p class="resumen-item__label">Vencidas</p>
+                <div class="resumenPagos__item">
+                    <p class="resumenPagos__numero resumenPagos__numero--azul">1</p>
+                    <p class="resumenPagos__texto">Vencidas</p>
                 </div>
             </div>
         </div>
-
         <button class="boton boton--volver">Volver</button>
     </main>
 </body>
