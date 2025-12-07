@@ -28,6 +28,7 @@
 .contenido__grupo {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .contenido__grupo--fila {

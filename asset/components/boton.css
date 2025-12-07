@@ -64,3 +64,14 @@
     color: #E51E1E;
     border: 3px solid #E51E1E;
 }
+
+.boton--volver{
+    background-color: #2ECC71;
+    color: #fff;
+}
+
+.boton--volver:hover {
+    background-color: #fff;
+    color: #2ECC71;
+    border: 3px solid #2ECC71;
+}
