@@ -70,7 +70,29 @@
     color: #fff;
 }
 
-.boton--volver:hover {
+.boton--volver:hover{
+    background-color: #fff;
+    color: #2ECC71;
+    border: 3px solid #2ECC71;
+}
+
+.boton--editar{
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+.boton--editar:hover{
+    background-color: #fff;
+    color: #2196F3;
+    border: 3px solid #2196F3;
+}
+
+.boton--agregar{
+    background-color: #2ECC71;
+    color: #fff;
+}
+
+.boton--agregar:hover{
     background-color: #fff;
     color: #2ECC71;
     border: 3px solid #2ECC71;
