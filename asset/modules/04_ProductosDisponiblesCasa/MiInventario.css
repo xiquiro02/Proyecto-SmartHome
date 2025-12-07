@@ -1,0 +1,231 @@
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    padding: 50px 20px;
+    gap: 12px;
+    margin-top: 50px;
+    box-shadow: none;
+}
+
+.encabezado__contenedor{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.encabezado__imagen {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 8px;
+}
+
+.encabezado__titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.encabezado__contenido{
+    margin-top: 5px;
+    text-align: center;
+    background: transparent;
+}
+
+.encabezado__descripcion{
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.listas__busqueda {
+    margin-bottom: 20px;
+}
+
+.listas__barra{
+    width: 100%;
+    padding: 10px 100px 10px 16px;
+    border: 2px solid #E0E0E0;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.listas__barra::placeholder {
+    width: 200%;
+}
+
+.inventario-container {
+    padding: 20px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+}
+
+.inventario-acciones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.accion-inventario {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.30);
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.accion-inventario:active {
+    transform: scale(0.98);
+}
+
+.accion-inventario__icono {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+}
+
+.accion-inventario__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.accion-inventario__descripcion {
+    font-size: 14px;
+    color: #757575;
+}
+
+.tarjeta-especial {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.30);
+    border-top: 5px solid #9400CE;
+    gap: 15px;
+}
+
+.tarjeta-especial__contenido{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tarjeta-especial__icono {
+    width: 45px;
+    height: 45px;
+}
+
+.tarjeta-especial__titulo {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.tarjeta-especial__descripcion {
+    font-size: 13px;
+    color: #424242;
+}
+
+.boton--mover{
+    width: 15%;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap; 
+}
+
+.tarjetaAccion{
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.30);
+}
+
+.tarjetaAccion--gris{
+    border-left: 5px solid #C1B9B9;
+}
+
+.tarjetaAccion__encabezado{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.tarjetaAccion__icono{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.tarjetaAccion__icono--gris{
+    background: #F5F5F5;
+}
+
+.tarjetaAccion__titulo{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.resumenPagos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.resumenPagos__item{
+    text-align: center;
+}
+
+.resumenPagos__numero{
+    font-size: 28px;
+    font-weight: 700;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E51E1E;
+    background: #FFEBEE;
+}
+
+.resumenPagos__numero--verde {
+    background: #E8F5E9;
+    color: #2ECC71;
+}
+
+.resumenPagos__numero--azul {
+    background: #d7ecff;
+    color: #1E88E5;
+}
+
+.resumenPagos__texto {
+    font-size: 12px;
+    color: #757575;
+    margin-top: 4px;
+}
