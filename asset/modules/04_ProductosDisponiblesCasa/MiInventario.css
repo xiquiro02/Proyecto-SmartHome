@@ -44,11 +44,11 @@
     line-height: 1.5;
 }
 
-.listas__busqueda {
+.inventario__busqueda {
     margin-bottom: 20px;
 }
 
-.listas__barra{
+.inventario__barra{
     width: 100%;
     padding: 10px 100px 10px 16px;
     border: 2px solid #E0E0E0;
@@ -56,24 +56,24 @@
     font-size: 14px;
 }
 
-.listas__barra::placeholder {
+.inventario__barra::placeholder {
     width: 200%;
 }
 
-.inventario-container {
+.inventario{
     padding: 20px;
     padding-bottom: 80px;
     margin-top: 50px;
 }
 
-.inventario-acciones {
+.inventario__acciones{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
     margin-bottom: 20px;
 }
 
-.accion-inventario {
+.inventario__opcion{
     background: #FFFFFF;
     border-radius: 16px;
     padding: 20px;
@@ -83,63 +83,66 @@
     transition: transform 0.2s ease;
 }
 
-.accion-inventario:active {
+.inventario__opcion:active {
     transform: scale(0.98);
 }
 
-.accion-inventario__icono {
+.inventario__opcion-icono{
     width: 50px;
     height: 50px;
     margin: 0 auto 10px;
 }
 
-.accion-inventario__titulo {
+.inventario__opcion-titulo{
     font-size: 18px;
     font-weight: 700;
     color: #000000;
     margin-bottom: 4px;
 }
 
-.accion-inventario__descripcion {
+.inventario__opcion-descripcion{
     font-size: 14px;
     color: #757575;
 }
 
-.tarjeta-especial {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    padding: 20px;
-    border-radius: 16px;
-    margin-bottom: 20px;
+.inventario__tarjeta{
     width: 100%;
     background: #FFFFFF;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 15px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.30);
-    border-top: 5px solid #9400CE;
     gap: 15px;
 }
 
-.tarjeta-especial__contenido{
+.inventario__tarjeta-icono{
+    width: 45px;
+    height: 45px;
+}
+
+.inventario__tarjeta-contenido{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.tarjeta-especial__icono {
-    width: 45px;
-    height: 45px;
-}
-
-.tarjeta-especial__titulo {
+.inventario__tarjeta-titulo{
     font-size: 16px;
     font-weight: 700;
     color: #000000;
     margin-bottom: 4px;
 }
 
-.tarjeta-especial__descripcion {
+.inventario__tarjeta-descripcion{
     font-size: 13px;
     color: #424242;
+}
+
+.inventario__tarjeta--principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid #9400CE;
 }
 
 .boton--mover{
@@ -153,55 +156,46 @@
     white-space: nowrap; 
 }
 
-.tarjetaAccion{
-    width: 100%;
-    background: #FFFFFF;
-    border-radius: 16px;
-    padding: 20px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.30);
-}
-
-.tarjetaAccion--gris{
+.inventario__tarjeta--gris {
     border-left: 5px solid #C1B9B9;
 }
 
-.tarjetaAccion__encabezado{
+.inventario__tarjeta-encabezado {
     display: flex;
     align-items: center;
     gap: 12px;
     margin-bottom: 12px;
 }
 
-.tarjetaAccion__icono{
+.inventario__tarjeta-icono{
     width: 50px;
     height: 50px;
     padding: 8px;
     border-radius: 50%;
 }
 
-.tarjetaAccion__icono--gris{
+.inventario__tarjeta-icono--gris {
     background: #F5F5F5;
 }
 
-.tarjetaAccion__titulo{
+.inventario__tarjeta-titulo{
     margin-top: 10px;
     font-size: 20px;
     font-weight: 700;
     color: #000000;
 }
 
-.resumenPagos{
+.inventario__resumen{
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
 }
 
-.resumenPagos__item{
+.inventario__resumen-item{
     text-align: center;
 }
 
-.resumenPagos__numero{
+.inventario__resumen-numero{
     font-size: 28px;
     font-weight: 700;
     width: 60px;
@@ -210,22 +204,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #E51E1E;
-    background: #FFEBEE;
-}
-
-.resumenPagos__numero--verde {
     background: #E8F5E9;
     color: #2ECC71;
 }
 
-.resumenPagos__numero--azul {
+.inventario__resumen-numero--rojo{
+    color: #E51E1E;
+    background: #FFEBEE;
+}
+
+.inventario__resumen-numero--azul{
     background: #d7ecff;
     color: #1E88E5;
 }
 
-.resumenPagos__texto {
+.inventario__resumen-texto {
     font-size: 12px;
     color: #757575;
     margin-top: 4px;
+}
+
+.inventario__boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.boton--volver{
+    width: 30%;
 }

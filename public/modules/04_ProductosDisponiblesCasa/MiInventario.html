@@ -22,52 +22,52 @@
         <div class="encabezado__contenido">
             <p class="encabezado__descripcion">Controla tu inventario en casa y actualiza tus listas de compras fácilmente.</p>
         </div>
-        <div class="listas__busqueda">
-            <input type="search" class="listas__barra" placeholder=" 🔍 Buscar productos...">
+        <div class="inventario__busqueda">
+            <input type="search" class="inventario__barra" placeholder=" 🔍 Buscar productos...">
         </div>
     </header>
-    <main class="inventario-container">
-        <div class="inventario-acciones">
-            <a href="#registrar" class="accion-inventario">
-                <img class="accion-inventario__icono" src="../../../asset/imagenes/agregar_factura.png" alt="Registrar">
-                <h3 class="accion-inventario__titulo">Registrar productos</h3>
-                <p class="accion-inventario__descripcion">Agrega nuevos productos disponibles</p>
+    <main class="inventario">
+        <div class="inventario__acciones">
+            <a href="#registrar" class="inventario__opcion">
+                <img class="inventario__opcion-icono" src="../../../asset/imagenes/agregar_factura.png" alt="Registrar">
+                <h3 class="inventario__opcion-titulo">Registrar productos</h3>
+                <p class="inventario__opcion-descripcion">Agrega nuevos productos disponibles</p>
             </a>
-            <a href="#consultar" class="accion-inventario">
-                <img class="accion-inventario__icono" src="../../../asset/imagenes/barra-grafica.png" alt="Consultar">
-                <h3 class="accion-inventario__titulo">Consultar inventario</h3>
-                <p class="accion-inventario__descripcion">Ver y filtrar tus productos</p>
+            <a href="#consultar" class="inventario__opcion">
+                <img class="inventario__opcion-icono" src="../../../asset/imagenes/barra-grafica.png" alt="Consultar">
+                <h3 class="inventario__opcion-titulo">Consultar inventario</h3>
+                <p class="inventario__opcion-descripcion">Ver y filtrar tus productos</p>
             </a>
         </div>
-        <div class="tarjeta-especial">
-            <img class="tarjeta-especial__icono" src="../../../asset/imagenes/mover-archivo.png" alt="Mover">
-            <div class="tarjeta-especial__contenido">
-                <h3 class="tarjeta-especial__titulo">Mover productos agotados</h3>
-                <p class="tarjeta-especial__descripcion">Envía automáticamente a la lista de compras</p>
+        <div class="inventario__tarjeta inventario__tarjeta--principal">
+            <img class="inventario__tarjeta-icono" src="../../../asset/imagenes/mover-archivo.png" alt="Mover">
+            <div class="inventario__tarjeta-contenido">
+                <h3 class="inventario__tarjeta-titulo">Mover productos agotados</h3>
+                <p class="inventario__tarjeta-descripcion">Envía automáticamente a la lista de compras</p>
             </div>
             <button class="boton boton--mover">Mover</button>
         </div>
-        <div class="tarjetaAccion tarjetaAccion--gris">
-            <div class="tarjetaAccion__encabezado">
-                <img class="tarjetaAccion__icono tarjetaAccion__icono--gris" src="../../../asset/imagenes/resumen_rapido.png" alt="Resumen">
-                <h3 class="tarjetaAccion__titulo">Resumen rápido</h3>
+        <div class="inventario__tarjeta inventario__tarjeta--gris">
+            <div class="inventario__tarjeta-encabezado">
+                <img class="inventario__tarjeta-icono inventario__tarjeta-icono--gris" src="../../../asset/imagenes/resumen_rapido.png" alt="Resumen">
+                <h3 class="inventario__tarjeta-titulo">Resumen rápido</h3>
             </div>
-            <div class="resumenPagos">
-                <div class="resumenPagos__item">
-                    <p class="resumenPagos__numero">6</p>
-                    <p class="resumenPagos__texto">Disponibles</p>
+            <div class="inventario__resumen">
+                <div class="inventario__resumen-item">
+                    <p class="inventario__resumen-numero">6</p>
+                    <p class="inventario__resumen-texto">Disponibles</p>
                 </div>
-                <div class="resumenPagos__item">
-                    <p class="resumenPagos__numero resumenPagos__numero--verde">4</p>
-                    <p class="resumenPagos__texto">Por agotar</p>
+                <div class="inventario__resumen-item">
+                    <p class="inventario__resumen-numero inventario__resumen-numero--rojo">4</p>
+                    <p class="inventario__resumen-texto">Por agotar</p>
                 </div>
-                <div class="resumenPagos__item">
-                    <p class="resumenPagos__numero resumenPagos__numero--azul">4</p>
-                    <p class="resumenPagos__texto">Categorías</p>
+                <div class="inventario__resumen-item">
+                    <p class="inventario__resumen-numero inventario__resumen-numero--azul">4</p>
+                    <p class="inventario__resumen-texto">Categorías</p>
                 </div>
             </div>
         </div>
-        <a href="../Menu principal/menu_principal.html" class="listas__boton">
+        <a href="../Menu principal/menu_principal.html" class="inventario__boton">
                 <button class="boton boton--volver">Volver</button>
         </a>
     </main>
