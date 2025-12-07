@@ -184,10 +184,18 @@
     align-items: center;
 }
 
+.listas__boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
 .boton--registrar{
-    width: 50%;
+    width: 30%;
 }
 
 .boton--volver{
-    width: 50%;
+    width: 30%;
 }

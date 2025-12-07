@@ -213,7 +213,14 @@
     border-radius: 20px;
 }
 
+.tarjetaAccion__boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
 .boton--volver{
-    width: 50%;
+    width: 30%;
     margin-bottom: 20px;
 }
