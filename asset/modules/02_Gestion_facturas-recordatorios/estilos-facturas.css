@@ -62,21 +62,21 @@
 }
 
 .tarjetaAccion--azul{
-    border-left: 5px solid #1E88E5;
+    border-top: 5px solid #1E88E5;
 }
 
 .tarjetaAccion--verde{
-    border-left: 5px solid #12BA3C;
+    border-top: 5px solid #12BA3C;
 }
 
 .tarjetaAccion--morado{
     display: flex;
     justify-content: space-between;     
-    border-left: 5px solid #9400CE;
+    border-top: 5px solid #9400CE;
 }
 
 .tarjetaAccion--gris{
-    border-left: 5px solid #C1B9B9;
+    border-top: 5px solid #C1B9B9;
 }
 
 .tarjetaAccion__encabezado{
