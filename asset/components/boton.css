@@ -108,3 +108,15 @@
     color: #9400CE;
     border: 3px solid #9400CE;
 }
+
+.boton--nuevaCategoria{
+    background: #FFFFFF;
+    color: #2196F3;
+    border: 3px solid #2196F3;
+}
+
+.boton--nuevaCategoria:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
