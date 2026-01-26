@@ -120,3 +120,13 @@
     color: #FFFFFF;
 }
 
+.boton--resumen{
+    background: #9400CE;
+    color: #FFFFFF;
+}
+
+.boton--resumen:hover{
+    background-color: #fff;
+    color: #9400CE;
+    border: 3px solid #9400CE;
+}
