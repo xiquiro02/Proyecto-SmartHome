@@ -130,3 +130,26 @@
     color: #9400CE;
     border: 3px solid #9400CE;
 }
+
+.boton--guardar{
+    background: #FFFFFF;
+    color: #2196F3;
+    border: 3px solid #2196F3;
+}
+
+.boton--guardar:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.boton--marcar {
+    background: #FFFFFF;
+    color: #2196F3;
+    border: 2px solid #2196F3;
+}
+
+.boton--marcar:hover {
+    background: #2196f3;
+    color: #FFFFFF;
+    border: 2px solid #2196F3;
+}
