@@ -61,19 +61,19 @@
 }
 
 .tarjetaAccion--azul {
-    border-top: 5px solid #1E88E5;
+    border-top: 8px solid #1E88E5;
 }
 
 .tarjetaAccion--verde {
-    border-top: 5px solid #12BA3C;
+    border-top: 8px solid #12BA3C;
 }
 
 .tarjetaAccion--rojo {
-    border-top: 5px solid #E51E1E;
+    border-top: 8px solid #E51E1E;
 }
 
 .tarjetaAccion--morado {
-    border-top: 5px solid #9400CE;
+    border-top: 8px solid #9400CE;
 }
 
 .tarjetaAccion__encabezado {
@@ -121,57 +121,12 @@
     margin-top: 5px;
     font-size: 16px;
     color: #757575;
-    margin-bottom: 12px;
 }
 
 .boton {
     padding: 15px 25px;
     border-radius: 20px;
-    font-size: 14px;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.boton--azul-completo {
-    width: 100%;
-    background: #1E88E5;
-    color: #FFFFFF;
-}
-
-.boton--azul-completo:hover {
-    background: #1565C0;
-}
-
-.boton--verde-completo {
-    width: 100%;
-    background: #12BA3C;
-    color: #FFFFFF;
-}
-
-.boton--verde-completo:hover {
-    background: #0F9A33;
-}
-
-.boton--rojo-completo {
-    width: 100%;
-    background: #E51E1E;
-    color: #FFFFFF;
-}
-
-.boton--rojo-completo:hover {
-    background: #C41717;
-}
-
-.boton--morado-completo {
-    width: 100%;
-    background: #9400CE;
-    color: #FFFFFF;
-}
-
-.boton--morado-completo:hover {
-    background: #7A00A9;
+    font-size: 12px;
 }
 
 .finanzas__boton {
@@ -182,13 +137,33 @@
     text-decoration: none;
 }
 
-.boton--volver {
-    width: 30%;
-    background: #4CAF50;
-    color: #FFFFFF;
-    margin-bottom: 20px;
+.boton--editar{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
 }
 
-.boton--volver:hover {
-    background: #45A049;
+.boton--agregar{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.boton--Eliminar{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.boton--resumen{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.boton--volver {
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 14px;
 }

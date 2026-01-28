@@ -16,7 +16,7 @@
 <body>
     <header class="encabezado">
         <img class="encabezado__imagen" src="../../../asset/imagenes/Logo redondo.png" alt="Logo de SmartHome Budget">
-        <a href="01_facturas.html">
+        <a href="01_Finanzas.html">
             <span class="material-symbols-outlined"> arrow_back_ios_new </span>
         </a>
         <div class="encabezado__contenedorTitulo">
@@ -26,7 +26,7 @@
     
     <main class="presupuestoMensual">
         <div class="presupuestoMensual__introduccion">
-            <span class="introduccion__icono">🎯</span>
+            <img class="introduccion__icono" src="../../../asset/imagenes/PresupuestoMES.png" alt="Logo de SmartHome Budget">
             <div class="introduccion__contenido">
                 <h2 class="introduccion__titulo">Presupuesto Mensual</h2>
                 <p class="introduccion__texto">
@@ -36,15 +36,8 @@
         </div>
         <div class="formularioPresupuesto">
             <div class="formularioPresupuesto__campo">
-                <label class="formularioPresupuesto__label" for="presupuesto">
-                    Presupuesto máximo del mes
-                </label>
-                <input 
-                    type="text" 
-                    id="presupuesto" 
-                    class="formularioPresupuesto__input" 
-                    placeholder="$ 0.00"
-                    value="$ 1,000,000">
+                <label class="formularioPresupuesto__label" for="presupuesto"> Presupuesto máximo del mes </label>
+                <input type="text" id="presupuesto" class="formularioPresupuesto__input" placeholder="$ 0.00">
             </div>
             <div class="formularioPresupuesto__campo">
                 <label class="formularioPresupuesto__label" for="mes">
@@ -86,7 +79,7 @@
         </div>
         <div class="vistaPrevia">
             <div class="vistaPrevia__encabezado">
-                <span class="vistaPrevia__icono">👁️</span>
+                <span class="vistaPrevia__icono">📄</span>
                 <h3 class="vistaPrevia__titulo">Vista previa</h3>
             </div>
             <div class="vistaPrevia__contenido">
@@ -104,10 +97,10 @@
                 </div>
             </div>
         </div>
-        <a href="#" class="presupuestoMensual__boton">
-            <button class="boton boton--guardar">Guardar presupuesto</button>
+        <a href="01_Finanzas.html" class="presupuestoMensual__boton">
+            <button class="boton boton--registrar">Guardar presupuesto</button>
         </a>
-        <a href="finanzas.html" class="presupuestoMensual__boton">
+        <a href="01_Finanzas.html" class="presupuestoMensual__boton">
             <button class="boton boton--cancelar">Cancelar</button>
         </a>
     </main>

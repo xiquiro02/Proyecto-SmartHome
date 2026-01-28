@@ -14,8 +14,9 @@
 }
 
 .introduccion__icono {
-    font-size: 40px;
-    flex-shrink: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
 }
 
 .introduccion__contenido {
@@ -32,7 +33,7 @@
 .introduccion__texto {
     font-size: 14px;
     font-weight: 400;
-    color: #666666;
+    color: #000000;
     line-height: 1.5;
 }
 
@@ -64,7 +65,7 @@
 .formularioPresupuesto__select {
     width: 100%;
     padding: 14px 16px;
-    border: 2px solid #E0E0E0;
+    border: 2px solid #777474;
     border-radius: 10px;
     font-size: 15px;
     outline: none;
@@ -77,15 +78,16 @@
 }
 
 .formularioPresupuesto__input::placeholder {
-    color: #BDBDBD;
+    color: #777474;
 }
 
 .formularioPresupuesto__select {
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 16px center;
-    padding-right: 40px;
+    color: #777474;
+    padding: 12px 16px;
+    border: 2px solid #777474;
+    border-radius: 10px;
+    font-size: 14px;
+    background: #FFFFFF;
     cursor: pointer;
 }
 
@@ -132,11 +134,10 @@
 }
 
 .vistaPrevia {
-    background: #E3F2FD;
+    background: #85BCEB;
     padding: 20px;
     border-radius: 12px;
     margin-bottom: 24px;
-    border-left: 4px solid #2196F3;
 }
 
 .vistaPrevia__encabezado {
@@ -153,7 +154,7 @@
 .vistaPrevia__titulo {
     font-size: 16px;
     font-weight: 700;
-    color: #1565C0;
+    color: #000000;
 }
 
 .vistaPrevia__contenido {
@@ -195,41 +196,21 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin-bottom: 12px;
 }
 
 .boton {
     padding: 8px 16px;
     font-size: 12px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: all 0.2s ease;
 }
 
-.boton--guardar {
+.boton--registrar {
     width: 40%;
     padding: 20px;
-    font-size: 18px;
-    background: #2196F3;
-    color: #FFFFFF;
-}
-
-.boton--guardar:hover {
-    background: #1976D2;
-    transform: translateY(-2px);
+    font-size: 20px;
 }
 
 .boton--cancelar {
     width: 40%;
     padding: 20px;
-    font-size: 18px;
-    background: #4CAF50;
-    color: #FFFFFF;
-}
-
-.boton--cancelar:hover {
-    background: #45A049;
-    transform: translateY(-2px);
+    font-size: 20px;
 }
