@@ -145,15 +145,22 @@
     border-top: 5px solid #9400CE;
 }
 
-.boton--mover{
-    width: 15%;
-    border: none;
-    padding: 10px 20px;
+.inventario__boton{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+}
+
+.boton {
+    padding: 15px 25px;
     border-radius: 20px;
-    font-size: 13px;
-    font-weight: 600;
-    cursor: pointer;
-    white-space: nowrap; 
+    font-size: 12px;
+}
+
+.boton--mover{
+    width: 25%;
+    padding: 10px;
+    font-size: 14px;
 }
 
 .inventario__tarjeta--gris {
