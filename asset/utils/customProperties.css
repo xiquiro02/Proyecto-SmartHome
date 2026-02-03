@@ -108,7 +108,7 @@
     --carga-main: 2rem;
   /* ===================== ESTILOS PRINCIPAL =====================  */
     /* Imagen */
-    --contenido-img-tamano: 40vw;
+    --contenido-img-tamano: 80vw;
     --contenido-img-max: 280px;       
     --contenido-img-min: 160px;  
     /* Texto */
@@ -118,8 +118,12 @@
     /*Ancho*/
     --contenido-ancho-contenedorbutton: 100%;
     --contenido-Max-ancho: 350px;
+    /*Tamaño*/
+    --contenido-icono-tamano: 6.3vh;
     /*Margin*/
-    --contenido-margin-bottom: 2rem;
+    --contenido-margin-bottom: 1rem;
+    /*Padding*/
+    --contenido-padding:20px;
   /* ===================== ESTILOS INICIAR SESIÓN =====================  */
     /* Altura y Ancho de Checkbox */
     --login-checkbox-altura: 40vh;
