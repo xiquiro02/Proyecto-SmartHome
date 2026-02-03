@@ -132,24 +132,24 @@
 }
 
 .boton--marcar {
-    background: #FFFFFF;
-    color: #2196F3;
-    border: 2px solid #2196F3;
+    background: var(--btn-colorAzul-text);
+    color: var(--btn-colorAzul-general);
+    border: var(--btn-colorAzul-general-hover-border);
 }
 
 .boton--marcar:hover {
-    background: #2196f3;
-    color: #FFFFFF;
-    border: 2px solid #2196F3;
+    background: var(--btn-colorAzul-general-hover-text);
+    color: var(--btn-colorAzul-general-hover);
+    border: var(--btn-colorAzul-general-hover-border);
 }
 
 .boton--VerLista{
-    background-color: #2ECC71;
-    color: #fff;
+    background-color: var(--btn-color-general);
+    color: var( --btn-color-text);
 }
 
 .boton--VerLista:hover{
-    background-color: #fff;
-    color: #2ECC71;
-    border: 3px solid #2ECC71;
+    background-color: var(--btn-color-general-hover);
+    color: var(--btn-color-general-hover-text);
+    border: var(--btn-color-general-hover-border);
 }
