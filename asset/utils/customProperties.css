@@ -98,12 +98,14 @@
     /* Ancho */
     --carga-ancho: 100%;
     --carga-contenedor-ancho: 100%;
-    --carga-logo-ancho: 70vw;
-    --carga-gif-ancho: 70vw; 
+    --carga-logo-ancho: 80vw;
+    --carga-gif-ancho: 80vw; 
     /* Altura */
     --carga-altura: 100vh;
     --carga-logo-altura: auto;
     --carga-gif-altura: auto;
+    /*Padding*/
+    --carga-main: 2rem;
   /* ===================== ESTILOS PRINCIPAL =====================  */
     /* Imagen */
     --contenido-img-tamano: 40vw;
