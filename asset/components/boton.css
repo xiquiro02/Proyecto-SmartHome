@@ -1,5 +1,5 @@
 .boton {
-    width: 100%;
+    width: var(--btn-width);
     padding: var(--btn-padding);
     border: none;
     border-radius: var(--btn-radius);
@@ -8,7 +8,7 @@
     cursor: pointer;
     white-space: nowrap;
     margin-top: var(--btn-margin-top);
-    transition: 0.3s;
+    transition: var(--btn-transition);
 }
 
 .boton--iniciar {
@@ -34,112 +34,101 @@
 }
 
 .boton--cancelar {
-    background-color: #2ECC71;
-    color: #fff;
+    background-color: var(--btn-color-general);
+    color: var(--btn-color-text);
 }
 
 .boton--cancelar:hover {
-    background-color: #fff;
-    color: #2ECC71;
-    border: 3px solid #2ECC71;
+    background-color: var(--btn-color-general-hover);
+    color: var(--btn-color-general-hover-text);
+    border: var(--btn-color-general-hover-border);
 }
 
 .boton--cerrar-sesion {
-    background-color: #E0E0E0;
-    color: #000000;
+    background-color: var(--btn-cerrar-sesion);
+    color: var(--btn-cerrar-sesion-text);
 }
 
 .boton--cerrar-sesion:hover {
-    background-color: #000000;
-    color: #E0E0E0;
+    background-color: var(--btn-cerrer-sesion-hover);
+    color: var(--btn-cerrer-sesion-hover-text);
 }
 
 .boton--Eliminar {
-    background-color: #E51E1E;
-    color: #FFFFFF;
+    background-color: var(--btn-eliminar);
+    color: var(--btn-eliminar-text);
 }
 
 .boton--Eliminar:hover {
-    background-color: #FFFFFF;
-    color: #E51E1E;
-    border: 3px solid #E51E1E;
+    background-color: var(--btn-eliminar-hover);
+    color: var(--btn-eliminar-hover-text);
+    border: var(--btn-eliminar-hover-border);
 }
 
 .boton--volver{
-    background-color: #2ECC71;
-    color: #fff;
+    background-color: var(--btn-color-general);
+    color: var(--btn-color-text);
 }
 
 .boton--volver:hover{
-    background-color: #fff;
-    color: #2ECC71;
-    border: 3px solid #2ECC71;
+    background-color: var(--btn-color-general-hover);
+    color: var(--btn-color-general-hover-text);
+    border: var(--btn-color-general-hover-border);
 }
 
 .boton--editar{
-    background: #2196F3;
-    color: #FFFFFF;
+    background: var(--btn-colorAzul-general);
+    color: var(--btn-colorAzul-text);
 }
 
 .boton--editar:hover{
-    background-color: #fff;
-    color: #2196F3;
-    border: 3px solid #2196F3;
+    background-color: var(--btn-colorAzul-general-hover);
+    color: var(--btn-colorAzul-general-hover-text);
+    border: var(--btn-colorAzul-general-hover-border);
 }
 
 .boton--agregar{
-    background-color: #2ECC71;
-    color: #fff;
+    background-color: var(--btn-color-general);
+    color: var(--btn-color-text);
 }
 
 .boton--agregar:hover{
-    background-color: #fff;
-    color: #2ECC71;
-    border: 3px solid #2ECC71;
+    background-color: var(--btn-color-general-hover);
+    color: var(--btn-color-general-hover-text);
+    border: var(--btn-color-general-hover-border);
 }
 
 .boton--mover{
-    background: #9400CE;
-    color: #FFFFFF;
+    background: var(--btn-colorMorado-general);
+    color: var(--btn-colorMorado-text);
 }
 
 .boton--mover:hover{
-    background-color: #fff;
-    color: #9400CE;
-    border: 3px solid #9400CE;
+    background-color: var(--btn-colorMorado-general-hover);
+    color: var(--btn-colorMorado-general-hover-text);
+    border: var(--btn-colorMorado-general-hover-border);
 }
 
 .boton--nuevaCategoria{
-    background: #FFFFFF;
-    color: #2196F3;
-    border: 3px solid #2196F3;
+    background: var(--btn-colorAzul-text);
+    color: var(--btn-colorAzul-general);
+    border: var(--btn-colorAzul-general-hover-border);
 }
 
 .boton--nuevaCategoria:hover{
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--btn-colorAzul-general-hover-text);
+    color: var(--btn-colorAzul-general-hover);
 }
 
 .boton--resumen{
-    background: #9400CE;
-    color: #FFFFFF;
+    background: var(--btn-colorMorado-general);
+    color: var(--btn-colorMorado-text);
 }
 
 .boton--resumen:hover{
-    background-color: #fff;
-    color: #9400CE;
-    border: 3px solid #9400CE;
-}
-
-.boton--guardar{
-    background: #FFFFFF;
-    color: #2196F3;
-    border: 3px solid #2196F3;
-}
-
-.boton--guardar:hover{
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--btn-colorMorado-general-hover);
+    color: var(--btn-colorMorado-general-hover-text);
+    border: var(--btn-colorMorado-general-hover-border);
 }
 
 .boton--marcar {

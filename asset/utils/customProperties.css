@@ -2,17 +2,26 @@
   /* ===================== HEADERS =====================  */
     /*Altura*/
     --header-altura: 60px;
+    --header-img-altura: 40px;
+    --header-contenedorTitulo-altura: 60px;
     /*Ancho*/
     --header-ancho: 100%;
+    --header-img-ancho: 40px;
+    --header-contenedorTitulo-ancho: 95%;
     /*Padding*/
     --header-padding: 15px 20px;
     /*Margin*/
     --header-margin: 0;
     /*Tamaño Icono*/
     --icono-tamano: 30px;
+    --header-tamano-titulo: 18px;
+    /*Gap*/
+    --header-gap: 15px;
     /*Color*/
     --icono-color: #000;
     --header-color: #D9D9D9;
+    /*Borde-radius*/
+    --header-img-radius: 8px;
     /*Box Shadow*/
     --header-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* Duración de transiciones */
@@ -32,23 +41,53 @@
     /*Gradientes */
     --contenedor-gradient-bg: linear-gradient(to right, #a4dbf4, #ccffd3);
   /* ===================== BOTONES =====================  */
+    /*Ancho*/
+    --btn-width: 100%;
     /*Color Botón primario*/
     --btn-primary: #1E88E5;
     --btn-primary-text: #fff;
     /*Color Botón secundario */
     --btn-secondary-bg: #4EC8A9;
     --btn-secondary-text: #fff;
+    /*Color Botones */
+    --btn-color-general: #2ECC71;
+    --btn-color-text: #fff;
+    --btn-cerrar-sesion: #E0E0E0;
+    --btn-cerrar-sesion-text: #000000;
+    --btn-eliminar: #E51E1E;
+    --btn-eliminar-text: #FFFFFF;
+    --btn-colorAzul-general: #1E88E5;
+    --btn-colorAzul-text: #fff;
+    --btn-colorMorado-general: #9400CE;
+    --btn-colorMorado-text: #fff;
     /*Hover Botón primario*/
     --btn-primary-hover: #fff;
     --btn-primary-hover-text: #1E88E5;
     /*Hover Botón secundario*/
     --btn-secondary-hover: #fff;
     --btn-secondary-hover-text: #4EC8A9;
+    /*Hover Botones*/
+    --btn-color-general-hover: #fff;
+    --btn-color-general-hover-text: #2ECC71;
+    --btn-cerrer-sesion-hover: #000000;
+    --btn-cerrer-sesion-hover-text: #E0E0E0;
+    --btn-eliminar-hover: #FFFFFF;
+    --btn-eliminar-hover-text: #E51E1E;
+    --btn-colorAzul-general-hover: #fff;
+    --btn-colorAzul-general-hover-text: #1E88E5;
+    --btn-colorMorado-general-hover: #fff;
+    --btn-colorMorado-general-hover-text: #9400CE;
     /* Padding*/
     --btn-padding: 15px 15px;
     /*Borde del hover*/
     --btn-primary-hover-border: 3px solid #1E88E5;
     --btn-secondary-hover-border: 3px solid #4EC8A9;
+    --btn-color-general-hover-border: 3px solid #2ECC71;
+    --btn-eliminar-hover-border: 3px solid #E51E1E;
+    --btn-colorAzul-general-hover-border: 3px solid #1E88E5;
+    --btn-colorMorado-general-hover-border: 3px solid #9400CE;
+    /* Duración de transiciones */
+    --btn-transition: 0.3s;
     /* Radio de bordes */
     --btn-radius: 8px;
     /*Tamaño fuente*/

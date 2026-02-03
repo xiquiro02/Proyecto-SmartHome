@@ -35,29 +35,34 @@
     background-color: transparent;
     box-shadow: none;
 }
+
+.encabezado .material-symbols-outlined {
+    font-size: 9vh;
+}
+
 /* ========================== Media queries ========================== */
 /* PANTALLAS MEDIANAS */
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1200px){
     .encabezado {
         height: 10vh;
         padding: 2vh 3vw;
     }
 
     .encabezado .material-symbols-outlined {
-        font-size: 6vh;
+        font-size: 4vh;
     }
 
     .contenido__imagen {
-        width: 30vw;
+        width: 50vw;
     }
 
     .contenido__parrafo {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .boton {
-        font-size: 1.1rem;
-        padding: 0.9rem 1.6rem;
+        font-size: 1.5rem;
+        padding: 1rem 1.6rem;
     }
 }
 /* PANTALLAS GRANDES */
@@ -68,24 +73,24 @@
     }
 
     .encabezado .material-symbols-outlined {
-        font-size: 7vh;
+        font-size: 4.5vh;
     }
 
     .contenido__imagen {
-        width: 20vw;
-        max-width: 400px;
+        width: 75vw;
+        max-width: 500px;
     }
 
     .contenido__parrafo {
         margin: 2rem 0;
-        font-size: 1.8rem;
+        font-size: 2.2rem;
         max-width: 60%;
         line-height: 1.4;
     }
 
     .boton {
-        font-size: 1.3rem;
-        padding: 1rem 2rem;
+        font-size: 2rem;
+        padding: 1.7rem 2rem;
         border-radius: 0.8rem;
         transition: border 0.2s ease;
     }
