@@ -42,7 +42,7 @@
     --contenedor-gradient-bg: linear-gradient(to right, #a4dbf4, #ccffd3);
   /* ===================== BOTONES =====================  */
     /*Ancho*/
-    --btn-width: 100%;
+    --btn-width: 90%;
     /*Color Botón primario*/
     --btn-primary: #1E88E5;
     --btn-primary-text: #fff;
@@ -78,7 +78,7 @@
     --btn-colorMorado-general-hover: #fff;
     --btn-colorMorado-general-hover-text: #9400CE;
     /* Padding*/
-    --btn-padding: 15px 15px;
+    --btn-padding: 0.9rem 0.9rem;
     /*Borde del hover*/
     --btn-primary-hover-border: 3px solid #1E88E5;
     --btn-secondary-hover-border: 3px solid #4EC8A9;
@@ -158,24 +158,38 @@
   --registro-input-bg: #D7F9E6;
   --registro-placeholder: #6E6E6E;
   /* Anchos */
+  --registro-contenedor-w: 80%;
+  --registro-contenedor-max-w: 380px;
+  --registro-contenidoGrupo-w: 100%;
   --registro-formulario-w: 90%;
-  --registro-input-w: 90%;
+  --registro-input-w: 100%;
+  --registro-boton-w: 90%;
   /* Alturas */
+  --registro-encabezado-h: 10vh; 
   --registro-contenido-min-h: 100vh;
-  --registro-input-h: 35px;
+  --registro-input-h: 40px;
   /* Bordes */
   --registro-radio-borde: 8px;
   --registro-input-border: 3px solid #000;
   --registro-input-border-focus: 4px solid #2a9d8f;
   /* Tipografía */
-  --registro-titulo-size: 1.5rem;
-  --registro-label-size: 0.7rem;
-  --registro-input-size: 14px;
+  --registro-titulo-size: 1.7rem;
+  --registro-label-size: 0.9rem;
+  --registro-input-size: 0.9rem;
+  --registro-encabezado-size: 4.7vh;
+  --registro-boton-size: 1rem;
   /* Margen */
-  --registro-titulo-margin: 1.5rem;
-  --registro-label-margin-bottom: 0.3rem;
+  --registro-titulo-margin: 1rem;
+  --registro-label-margin-bottom: 0.4rem;
   --registro-input-margin-bottom: 2px;
+  --registro-boton-margin-top: 10px;
   /* Padding */
-  --registro-input-padding: 0 10px;
+  --registro-encabezado-padding: 2vh 3vw;
+  --registro-input-padding: 0.8rem 10px;
   --registro-contenido-padding: 20px;
+  --registro-contenedor-padding: 20px, 15px;
+  --registro-placeholder-padding: 5px;
+  --registro-boton-padding: 1rem 1.5rem;
+  /*Gap*/
+  --registro-gap-formulario: 0.7rem;
 }

@@ -1,18 +1,19 @@
 /*Header*/
 .encabezado {
-    height: 10vh;
-    padding: 2vh 3vw;
+    height: var(--registro-encabezado-h);
+    padding: var(--registro-encabezado-padding);
 }
 
 .encabezado .material-symbols-outlined {
-    font-size: 6vh;
+    font-size: var(--registro-encabezado-size);
 }
 
 /*Contenedor*/
 .contenedor {
-    width: 80%;
-    max-width: 380px;
-    padding: 20px, 15px;
+    width: var(--registro-contenedor-w);
+    max-width: var(--registro-contenedor-max-w);
+    padding: var(--registro-contenedor-padding);
+    margin: 0 auto;
 }
 
 /*contenido*/
@@ -36,7 +37,15 @@
     display: flex;
     flex-direction: column;
     width: var(--registro-formulario-w);
-    gap: 1rem;
+    gap: var(--registro-gap-formulario);
+}
+
+.contenido__grupo {
+    width: var(--registro-contenidoGrupo-w);
+}
+
+.contenido__grupo a{
+    text-decoration: none;
 }
 
 .contenido__label{
@@ -58,7 +67,7 @@
 }
 
 input::placeholder {
-    padding-left: 10px;
+    padding-left: var(--registro-placeholder-padding);
     color: var(--registro-placeholder);
 }
 
@@ -69,9 +78,12 @@ input:focus {
 }
 
 .boton {
-    width: 90%;
-    padding: 8px 0;
-    font-size: 13px;
+    width: var(--registro-boton-w);
+    font-size: var(--registro-boton-size);
+    padding: var(--registro-boton-padding);
+    margin: 0 auto;
+    margin-top: var(--registro-boton-margin-top);
+    display: block;
 }
 
 .encabezado{
@@ -80,10 +92,60 @@ input:focus {
 }
 /* ========================== Media queries ========================== */
 /* PANTALLAS MEDIANAS */
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1200px){
     .encabezado {
         height: 10vh;
         padding: 2vh 3vw;
+    }
+
+    .encabezado .material-symbols-outlined {
+        font-size: 5vh;
+    }
+
+    .contenedor {
+        width: 80%;
+        max-width: 400px;
+        padding: 30px 32px;
+        margin: 0 auto;
+    }
+
+    .contenido__titulo {
+        margin-top: 10px;
+        font-size: 2rem;
+    }
+
+    .contenido__formulario {
+        width: 100%;
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    .contenido__grupo {
+        width: 100%;
+    }
+
+    .contenido__label{
+        font-size: 1rem;
+    }
+
+    .contenido__input {
+        padding: 1.2rem 0.5rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .boton {
+        width: 100%;
+        font-size: 1rem;
+        padding: 1rem 1rem;
+    }
+}
+/* PANTALLAS GRANDES */
+@media (min-width: 1200px){
+
+    .encabezado {
+        height: 10vh;
+        padding: 2.2vh 2.6vw;
     }
 
     .encabezado .material-symbols-outlined {
@@ -91,62 +153,22 @@ input:focus {
     }
 
     .contenedor {
-        width: 90%;
-        max-width: 48vw;
-        padding: 3.5vh 3vw;
-    }
-
-    .contenido__titulo {
-        font-size: 2.5rem;
-    }
-
-    .contenido__formulario {
-        max-width: 500px;
-    }
-
-    .contenido__label{
-        font-size: 1.1rem;
-    }
-
-    .contenido__input {
-        padding: 1.2rem 1rem;
-        font-size: 1.1rem;
-    }
-
-    .boton {
-        font-size: 1.1rem;
-        padding: 0.9rem 1.6rem;
-    }
-}
-/* PANTALLAS GRANDES */
-@media (min-width: 1200px){
-
-    .encabezado {
-        height: 12vh;
-        padding: 2.5vh 3vw;
-    }
-
-    .encabezado .material-symbols-outlined {
-        font-size: 7vh;
-    }
-
-    .contenedor {
         width: 100%;
-        max-width: 480px;  
+        max-width: 450px;  
         margin: 0 auto;         
         padding: 40px 35px;    
     }
 
     .contenido__titulo {
-        font-size: 3rem;   
+        font-size: 2.2rem;   
         text-align: center;  
     }
 
     .contenido__formulario {
         width: 100%;
-        max-width: 480px; 
+        max-width: 400px; 
         margin: 0 auto;
-        gap: 1.8rem;
+        gap: 1.3rem;
     }
 
     .contenido__grupo {
@@ -154,14 +176,14 @@ input:focus {
     }
 
     .contenido__label {
-        font-size: 1.2rem;  
-        margin-bottom: 0.6rem;  
+        font-size: 1.1rem;  
+        margin-bottom: 1rem;  
     }
 
     .contenido__input {
         width: 100%;
-        font-size: 1.2rem;
-        padding: 1.3rem 1.2rem;  
+        font-size: 1.1rem;
+        padding: 1.2rem 0.5rem;  
         border-radius: 10px;
         border: 3px solid #000;
     }
@@ -171,9 +193,9 @@ input:focus {
     }
 
     .boton {
-        width: 100%;
-        font-size: 1.3rem;   
-        padding: 1rem 2rem;
+        width: 99%;
+        font-size: 1.1rem;   
+        padding: 1rem 1rem;
         border-radius: 12px;
         cursor: pointer;
     }
