@@ -29,6 +29,7 @@
     text-align: center;
     font-size: var(--registro-titulo-size);
     font-weight: bold;
+    margin-top: var(--registro-contenidoTitulo-margin-top);
     margin-bottom: var(--registro-titulo-margin);
 }
 
@@ -83,6 +84,7 @@ input:focus {
     padding: var(--registro-boton-padding);
     margin: 0 auto;
     margin-top: var(--registro-boton-margin-top);
+    margin-bottom: var(--registro-boton-margin-bottom);
     display: block;
 }
 
@@ -110,7 +112,7 @@ input:focus {
     }
 
     .contenido__titulo {
-        margin-top: 10px;
+        margin-top: 0;
         font-size: 2rem;
     }
 
@@ -138,6 +140,7 @@ input:focus {
         width: 100%;
         font-size: 1rem;
         padding: 1rem 1rem;
+        margin-bottom: 0;
     }
 }
 /* PANTALLAS GRANDES */
@@ -160,6 +163,7 @@ input:focus {
     }
 
     .contenido__titulo {
+        margin-top: 0;
         font-size: 2.2rem;   
         text-align: center;  
     }
@@ -196,6 +200,7 @@ input:focus {
         width: 99%;
         font-size: 1.1rem;   
         padding: 1rem 1rem;
+        margin-bottom: 0;
         border-radius: 12px;
         cursor: pointer;
     }

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: var(--confirmacion-ancho-contenido);
     min-height: 80vh;
     padding: 20px;
 }

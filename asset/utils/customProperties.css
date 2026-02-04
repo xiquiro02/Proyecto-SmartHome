@@ -124,6 +124,50 @@
     --contenido-margin-bottom: 1rem;
     /*Padding*/
     --contenido-padding:20px;
+  /* ===================== ESTILOS REGISTRARSE =====================  */
+    /* Colores */
+    --registro-input-bg: #D7F9E6;
+    --registro-placeholder: #6E6E6E;
+    /* Anchos */
+    --registro-contenedor-w: 80%;
+    --registro-contenedor-max-w: 380px;
+    --registro-contenidoGrupo-w: 100%;
+    --registro-formulario-w: 90%;
+    --registro-input-w: 100%;
+    --registro-boton-w: 90%;
+    /* Alturas */
+    --registro-encabezado-h: 10vh; 
+    --registro-contenido-min-h: 100vh;
+    --registro-input-h: 40px;
+    /* Bordes */
+    --registro-radio-borde: 8px;
+    --registro-input-border: 3px solid #000;
+    --registro-input-border-focus: 4px solid #2a9d8f;
+    /* Tipografía */
+    --registro-titulo-size: 1.7rem;
+    --registro-label-size: 0.9rem;
+    --registro-input-size: 0.9rem;
+    --registro-encabezado-size: 4.7vh;
+    --registro-boton-size: 1rem;
+    /* Margen */
+    --registro-titulo-margin: 1rem;
+    --registro-label-margin-bottom: 0.4rem;
+    --registro-input-margin-bottom: 2px;
+    --registro-boton-margin-bottom: 20px;
+    --registro-boton-margin-top: 10px;
+    --registro-contenidoTitulo-margin-top: 20px;
+    /* Padding */
+    --registro-encabezado-padding: 2vh 3vw;
+    --registro-input-padding: 0.8rem 10px;
+    --registro-contenido-padding: 20px;
+    --registro-contenedor-padding: 20px, 15px;
+    --registro-placeholder-padding: 5px;
+    --registro-boton-padding: 1rem 1.5rem;
+    /*Gap*/
+    --registro-gap-formulario: 0.7rem;
+  /* ===================== ESTILOS CONFIRMACIÓN REGISTRO =====================  */
+    /*Anchos*/
+    --confirmacion-ancho-contenido: 100%;
   /* ===================== ESTILOS INICIAR SESIÓN =====================  */
     /* Altura y Ancho de Checkbox */
     --login-checkbox-altura: 40vh;
@@ -153,43 +197,4 @@
     --login-radio-bordes-inputs: 0.7rem;
     /*Gaps */
     --login-gap-formulario: 1rem;
-/* ===================== ESTILOS REGISTRARSE =====================  */
-  /* Colores */
-  --registro-input-bg: #D7F9E6;
-  --registro-placeholder: #6E6E6E;
-  /* Anchos */
-  --registro-contenedor-w: 80%;
-  --registro-contenedor-max-w: 380px;
-  --registro-contenidoGrupo-w: 100%;
-  --registro-formulario-w: 90%;
-  --registro-input-w: 100%;
-  --registro-boton-w: 90%;
-  /* Alturas */
-  --registro-encabezado-h: 10vh; 
-  --registro-contenido-min-h: 100vh;
-  --registro-input-h: 40px;
-  /* Bordes */
-  --registro-radio-borde: 8px;
-  --registro-input-border: 3px solid #000;
-  --registro-input-border-focus: 4px solid #2a9d8f;
-  /* Tipografía */
-  --registro-titulo-size: 1.7rem;
-  --registro-label-size: 0.9rem;
-  --registro-input-size: 0.9rem;
-  --registro-encabezado-size: 4.7vh;
-  --registro-boton-size: 1rem;
-  /* Margen */
-  --registro-titulo-margin: 1rem;
-  --registro-label-margin-bottom: 0.4rem;
-  --registro-input-margin-bottom: 2px;
-  --registro-boton-margin-top: 10px;
-  /* Padding */
-  --registro-encabezado-padding: 2vh 3vw;
-  --registro-input-padding: 0.8rem 10px;
-  --registro-contenido-padding: 20px;
-  --registro-contenedor-padding: 20px, 15px;
-  --registro-placeholder-padding: 5px;
-  --registro-boton-padding: 1rem 1.5rem;
-  /*Gap*/
-  --registro-gap-formulario: 0.7rem;
 }
