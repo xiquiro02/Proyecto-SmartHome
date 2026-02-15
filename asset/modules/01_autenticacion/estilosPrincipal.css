@@ -1,3 +1,17 @@
+.encabezado{
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 1.5rem;
+}
+
+.encabezado .material-symbols-outlined {
+    font-size: var(--contenido-icono-tamano);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
 /*Contenido*/
 .contenido {
     display: flex;
@@ -5,12 +19,10 @@
     align-items: center;
     padding: var(--contenido-padding);
     min-height: calc(100vh - 60px); /* Ajustar según altura del header */
-    gap: 1rem;
 }
 .contenido__contenedorimagen{
     display: flex;
     justify-content: center;
-    margin-bottom: 0.5rem;
 }
 .contenido__imagen{
     width: var(--contenido-img-tamano);
@@ -36,20 +48,6 @@
     max-width: var(--contenido-Max-ancho);
 }
 
-.encabezado{
-    background-color: transparent;
-    box-shadow: none;
-    display: flex;
-    justify-content: flex-end;
-    padding: 1rem 1.5rem;
-}
-
-.encabezado .material-symbols-outlined {
-    font-size: var(--contenido-icono-tamano);
-    cursor: pointer;
-    transition: transform 0.2s ease;
-}
-
 /* ========================== Media queries ========================== */
 /* PANTALLAS MEDIANAS */
 @media (min-width: 768px){
@@ -64,11 +62,7 @@
 
     .contenido{
         padding: 3rem 2rem;
-        gap: 1.5rem;
-    }
-
-    .contenido__contenedorimagen {
-        margin-bottom: 1rem;
+        gap: 1rem;
     }
     
     .contenido__contenedorbutton {
@@ -83,19 +77,19 @@
     }
 
     .contenido__parrafo {
-        margin-bottom: 1.5rem;
-        font-size: 1.2rem;
+        margin-bottom: 0;
+        font-size: 1.3rem;
     }
 
     .boton {
-        font-size: 1rem;
-        padding: 0.8rem 1.5rem;
+        font-size: 1.1rem;
+        padding: 0.9rem 1.8rem;
     }
 }
 /* PANTALLAS GRANDES */
 @media (min-width: 1200px){
     .encabezado {
-        padding: 2rem 3rem;
+        padding: 1rem 2rem;
         justify-content: flex-start;
     }
 
@@ -104,7 +98,7 @@
     }
 
     .contenido {
-        gap: 2rem;
+        gap: 0.5rem;
     }
 
     .contenido__imagen {
@@ -114,8 +108,8 @@
     }
 
     .contenido__parrafo {
-        margin-bottom: 2rem;
-        font-size: 1.4rem;
+        margin-bottom: 0.3rem;
+        font-size: 1.5rem;
         max-width: 600px;
         line-height: 1.5;
     }

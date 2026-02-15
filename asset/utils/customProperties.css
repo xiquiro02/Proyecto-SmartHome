@@ -110,22 +110,22 @@
     --carga-main: 2rem;
   /* ===================== ESTILOS PRINCIPAL =====================  */
     /* Imagen */
-    --contenido-img-tamano: 55vw;
-    --contenido-img-max: 240px;       
-    --contenido-img-min: 160px;  
+    --contenido-img-tamano: 60vw;
+    --contenido-img-max: 300px;       
+    --contenido-img-min: 180px;  
     /* Texto */
-    --contenido-parrafo-size: 1rem;
+    --contenido-parrafo-size: 1.1rem;
     /* Gap */
-    --contenido-gap-botones: 0.8rem;
+    --contenido-gap-botones: 0.5rem;
     /*Ancho*/
     --contenido-ancho-contenedorbutton: 100%;
-    --contenido-Max-ancho: 320px;
+    --contenido-Max-ancho: 300px;
     /*Tamaño*/
-    --contenido-icono-tamano: 1.8rem;
+    --contenido-icono-tamano: 2rem;
     /*Margin*/
-    --contenido-margin-bottom: 1rem;
+    --contenido-margin-bottom: 0.7rem;
     /*Padding*/
-    --contenido-padding: 1.5rem 1.5rem;
+    --contenido-padding: 1rem 1rem;
   /* ===================== ESTILOS REGISTRARSE =====================  */
     /* Colores */
     --registro-input-bg: #D7F9E6;
