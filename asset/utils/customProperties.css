@@ -42,7 +42,7 @@
     --contenedor-gradient-bg: linear-gradient(to right, #a4dbf4, #ccffd3);
   /* ===================== BOTONES =====================  */
     /*Ancho*/
-    --btn-width: 90%;
+    --btn-width: 100%;
     /*Color Botón primario*/
     --btn-primary: #1E88E5;
     --btn-primary-text: #fff;
@@ -98,8 +98,10 @@
     /* Ancho */
     --carga-ancho: 100%;
     --carga-contenedor-ancho: 100%;
-    --carga-logo-ancho: 80vw;
-    --carga-gif-ancho: 80vw; 
+    --carga-logo-ancho: 60vw;
+    --carga-gif-ancho: 50vw; 
+    --carga-logo-maxAncho: 300px;
+    --carga-gif-maxAncho:250px;
     /* Altura */
     --carga-altura: 100vh;
     --carga-logo-altura: auto;
@@ -108,22 +110,22 @@
     --carga-main: 2rem;
   /* ===================== ESTILOS PRINCIPAL =====================  */
     /* Imagen */
-    --contenido-img-tamano: 80vw;
-    --contenido-img-max: 280px;       
+    --contenido-img-tamano: 55vw;
+    --contenido-img-max: 240px;       
     --contenido-img-min: 160px;  
     /* Texto */
-    --contenido-parrafo-size: 1.2rem;
+    --contenido-parrafo-size: 1rem;
     /* Gap */
-    --contenido-gap-botones: 1.5rem;
+    --contenido-gap-botones: 0.8rem;
     /*Ancho*/
     --contenido-ancho-contenedorbutton: 100%;
-    --contenido-Max-ancho: 350px;
+    --contenido-Max-ancho: 320px;
     /*Tamaño*/
-    --contenido-icono-tamano: 6.3vh;
+    --contenido-icono-tamano: 1.8rem;
     /*Margin*/
     --contenido-margin-bottom: 1rem;
     /*Padding*/
-    --contenido-padding:20px;
+    --contenido-padding: 1.5rem 1.5rem;
   /* ===================== ESTILOS REGISTRARSE =====================  */
     /* Colores */
     --registro-input-bg: #D7F9E6;

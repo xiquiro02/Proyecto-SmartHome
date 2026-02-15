@@ -24,6 +24,7 @@
 .carga__logo{
     width: var(--carga-logo-ancho); 
     height: var(--carga-logo-altura);
+    max-width: var(--carga-logo-maxAncho);
 }
 /* GIF */
 .carga__gif-contenedor{
@@ -33,28 +34,33 @@
 .carga__gif{
     width: var(--carga-gif-ancho);
     height: var(--carga-gif-altura);
+    max-width: var(--carga-gif-maxAncho);
 }
 /* ========================== Media queries ========================== */
 /* PANTALLAS MEDIANAS */
-@media (min-width: 768px) and (max-width: 1200px){
+@media (min-width: 768px){
 /* Logo */
 .carga__logo{
-    width: 40vw; 
+    width: 35vw;
+    max-width: 400px; 
 }
 
 /* GIF */
 .carga__gif{
-    width: 35vw;
+    width: 30vw;
+    max-width: 350px;
 }}
 
 /* PANTALLAS GRANDES */
 @media (min-width: 1200px){
 /* Logo */
 .carga__logo{
-    width: 30vw; 
+    width: 25vw;
+    max-width: 450px; 
 }
 
 /* GIF */
 .carga__gif{
-    width: 22vw;
+    width: 20vw;
+    max-width: 400px;
 }}
